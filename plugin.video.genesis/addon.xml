@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.genesis" name="Genesis Change" version="5.1.9" provider-name="Gabriel">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0" />
+		<import addon="script.module.requests" version="1.0.0" />
+		<import addon="script.module.resolveurl" />
+		<import addon="script.module.metahandler" version="1.0.0" />
+		<import addon="plugin.video.youtube" optional="true" />
+   <import addon="script.module.beautifulsoup4"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.service" library="service.py" start="startup" />
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Cantinho do Software</summary>
+		<description lang="en">Fork do Genesis para o Cantinho do Software</description>
+		<disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with the content provider. Special thanks to lambda as this is the addon when he left the genesis project, all that has been added to it is code to make it function again</disclaimer>
+		<forum></forum>
+		<source></source>
+		<website></website>
+		<platform>all</platform>
+	</extension>
+</addon>
