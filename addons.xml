@@ -1,5 +1,182 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
+<addon id="repository.BrazucaPlay" name="[B][COLOR white]BRAZUCA PLAY[/COLOR][/B]" version="1.1" provider-name="Brazuca Play">
+<requires>
+<import addon="xbmc.python" version="2.1.0"/>
+<import addon="script.module.beautifulsoup"/>
+<import addon="script.module.simple.downloader"/>
+<import addon="script.module.t0mm0.common"/>
+<import addon="script.module.beautifulsoup4"/>
+<import addon="script.module.requests"/>
+<import addon="script.module.httplib2"/>
+<import addon="script.module.simple.downloader"/>
+<import addon="script.module.urlresolver"/>
+<import addon="script.module.simplejson"/>    
+<import addon="script.module.livestreamer"/>
+<import addon="script.module.pyamf"/>
+<import addon="script.common.plugin.cache"/>
+<import addon="script.module.metahandler"/>
+<import addon="script.module.addon.common"/>
+<import addon="script.module.addon.signals"/>
+</requires>
+<extension point="xbmc.addon.repository" name="REPOSITÓRIO BRAZUCA PLAY">
+<info compressed="false">https://raw.githubusercontent.com/skyrisk/brazucaplay/master/addons/repo/addons.xml</info>
+<checksum>https://raw.githubusercontent.com/skyrisk/brazucaplay/master/addons/repo/addons.xml.md5</checksum>
+<datadir zip="true">https://raw.githubusercontent.com/skyrisk/brazucaplay/master/addons/repo/Plugins/</datadir>
+</extension>
+<extension point="xbmc.addon.metadata">
+<news>
+[B][COLOR white]V1.1 - VERSÃO BETA DO REPOSITÓRIO BRAZUCA PLAY.[/COLOR][/B]
+</news>
+<summary>Brazuca Play</summary>
+<description>[B][COLOR white]REPOSITÓRIO OFICIAL DO BRAZUCA PLAY - 2019[/COLOR][/B]</description>
+<disclaimer></disclaimer>
+<platform>all</platform>
+<assets>
+<icon>icon.png</icon>
+<fanart>fanart.jpg</fanart>
+<screenshot>resources/home.jpg</screenshot>
+<screenshot>resources/movies.jpg</screenshot>
+<screenshot>resources/series.jpg</screenshot>
+</assets>
+</extension>
+</addon>
+
+<addon id="repository.braziltv" name="BrazilTV Repo" version="1.0a" provider-name="teamBrazilTV">
+  <extension point="xbmc.addon.repository" name="BrazilTV Repo">
+    <info compressed="false">http://braziltv.yolasite.com/resources/repo/addons.xml</info>
+    <checksum>http://braziltv.yolasite.com/resources/repo/addons.xml.md5</checksum>
+    <datadir zip="true">http://braziltv.yolasite.com/resources/repo/</datadir>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Repositório oficial BrazilTV.</summary>
+    <description lang="en">Este é o repositório oficial com todos os addons e atualizações do BrazilTV. Aqui você também encontra as dependências necessárias para que tudo funcione corretamente.
+
+Fique atento em nosso site oficial para mais informações!
+</description>
+    <assets>
+        <icon>icon.png</icon>
+        <fanart>fanart.jpg</fanart>
+    </assets>
+    <website>http://bit.ly/BrazilTVKodi</website>
+  </extension>
+</addon>
+
+<addon id="repo.vikings" name="[B][COLOR yellow].Vikings  [COLOR orange]Repo[/B][/COLOR]" version="1.02" provider-name="Vikings Builds by @	Pio">">
+	<requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.t0mm0.common" version="2.0.0"/>
+    <import addon="script.module.beautifulsoup4" />
+    <import addon="script.module.requests" />
+    <import addon="script.module.httplib2" />
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="plugin.video.youtube" version="5.2.1" />
+    <import addon="script.module.urlresolver" />
+    <import addon="script.module.simplejson" />    
+    <import addon="script.module.livestreamer"/>
+    <import addon="script.module.pyamf"/>
+    <import addon="script.common.plugin.cache" version="2.5.2"/>
+    <import addon="script.module.metahandler" version="2.5.1"/>
+	<import addon="script.module.addon.common" />
+	<import addon="script.module.addon.signals" version="0.0.1"/>
+	<import addon="script.module.youtube.dl"/>
+	
+  </requires>
+  <extension point="xbmc.addon.repository" name="Vikings Repository">
+		<info compressed="false">http://raw.github.com/vikingsbuild/repo.vikings/master/addons.xml</info>
+		<checksum>http://raw.github.com/vikingsbuild/repo.vikings/master/addons.xml.md5</checksum>
+		<datadir zip="true">http://raw.github.com/vikingsbuild/repo.vikings/master/addons/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Repositorio Vikings</summary>
+		<description>Repositorio oficial Vikings Build - Proibido reproducao sem previa autorizacao</description>
+		<news>
+	Somente Addons TOP, não incluimos "PINDURICALHOS"... somente ADDONS atualizados constantemente!
+	Os addons que será instalado não hospeda nem possui nenhum conteúdo. O autor não é responsável pelo uso e pelo conteúdo encontrado usando este addon
+</news>
+		
+		<disclaimer></disclaimer>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="repo.TWTUTORIAIS" name="[B][COLOR white].[/COLOR][COLOR mediumblue]MEGA[/COLOR][COLOR lime] REPO[/COLOR][COLOR yellow] TWTutoriais[/B][/COLOR]" version="1.3" provider-name="repo.TWTUTORIAIS">
+<requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.t0mm0.common" version="2.0.0"/>
+    <import addon="script.module.beautifulsoup4" />
+    <import addon="script.module.requests" />
+    <import addon="script.module.httplib2" />
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="plugin.video.youtube" version="6.0.0~alpha6" />
+    <import addon="script.module.urlresolver" />
+    <import addon="script.module.simplejson" />    
+    <import addon="script.module.livestreamer"/>
+    <import addon="script.module.pyamf"/>
+    <import addon="script.common.plugin.cache" version="2.5.2"/>
+    <import addon="script.module.metahandler" version="2.5.1"/>
+	<import addon="script.module.addon.common" />
+	<import addon="script.module.addon.signals" version="0.0.1"/>
+	<import addon="script.module.youtube.dl"/>
+</requires>
+	<extension point="xbmc.addon.repository" name="Repositorio TWTutoriais">
+		<info compressed="false">https://twtutoriaisrepo.000webhostapp.com/RepoTWTutoriais/addons.xml</info>
+		<checksum>https://twtutoriaisrepo.000webhostapp.com/RepoTWTutoriais/addons.xml.md5</checksum>
+		<datadir zip="true">https://twtutoriaisrepo.000webhostapp.com/RepoTWTutoriais/Plugins/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+	  <news>
+Add-on INSTALADO VIA REPO TONY WARLLEY TUTORIAIS, não baixe Add-ons que não sejam Oficial, Add-ons Oficiais somente no CANAL TONY WARLLEY TUTORIAIS.
+        </news>
+		<summary>Repositorio TWTutoriais</summary>
+		<description>Repositório TWTutoriais - Proibido Cópia e Reprodução sem Autorização.</description>
+		<disclaimer></disclaimer>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="plugin.program.mazethemes" name="Maze Themes" version="1.0.1" provider-name="Maze Themes">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.service" library="startup.py" start="startup" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Maze Themes</summary>
+    <description lang="en">Welcome to the Maze Themes where you can get all the latest Maze Custom Themes for kodi and spmc</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.jami"
+       name="[COLOR white][B]Jami[/B][/COLOR]"
+       version="7.1"
+       provider-name="frenchdj">
+ <requires>
+	<import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="plugin.video.youtube" optional="true" />
+    <import addon="script.module.simplejson" />    
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">[ 2018 ]</summary>
+    <description>Videos Infantis em [COLOR lime][PT][/COLOR] e [COLOR yellow][BR][/COLOR].
+Playlists organizadas por categorias, totalmente dedicadas aos mais pequenos, com muitos desenhos animados recentes, classicos e musicais.
+Toda a fonte  vem de utilizadores do Youtube.
+[B][COLOR lime][ Aconselhado Youtube 6.*.* ][/B][/COLOR]</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
 <addon id="program.plexus"
        name="Plexus"
        version="2.0.1"
