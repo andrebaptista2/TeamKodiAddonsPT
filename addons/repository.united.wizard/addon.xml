@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon 	id="repository.united.wizard" 
+		name="[COLOR lime][B]United[/B][/COLOR][COLOR cyan][B]Wizard[/B][/COLOR][COLOR red][B]Repo[/B][/COLOR]" 
+		version="1.0" 
+		provider-name="AR">
+	<extension point="xbmc.addon.repository" name="Legion'N'Unhinged: Repository">
+		<info compressed="false">http://myatom.one/wiz/addons.xml</info>
+		<checksum>http://myatom.one/wiz/addons.xml.md5</checksum>
+		<datadir zip="true">http://myatom.one/wiz/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>United Wizard</summary>
+		<description>Builds For Everyone</description>
+		<platform>all</platform>
+	</extension>
+</addon>

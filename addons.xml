@@ -1,5 +1,36 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
+<addon 	id="repository.united.wizard" 
+		name="[COLOR lime][B]United[/B][/COLOR][COLOR cyan][B]Wizard[/B][/COLOR][COLOR red][B]Repo[/B][/COLOR]" 
+		version="1.0" 
+		provider-name="AR">
+	<extension point="xbmc.addon.repository" name="Legion'N'Unhinged: Repository">
+		<info compressed="false">http://myatom.one/wiz/addons.xml</info>
+		<checksum>http://myatom.one/wiz/addons.xml.md5</checksum>
+		<datadir zip="true">http://myatom.one/wiz/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>United Wizard</summary>
+		<description>Builds For Everyone</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="plugin.program.djaythemes" name="Djay Themes" version="1.0.1" provider-name="Djay Builds">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.service" library="startup.py" start="startup" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Djay Themes</summary>
+    <description lang="en">Welcome to the Djay Themes where you can get all the latest Djay Themes for kodi and spmc</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
 <addon id="xbmc.python" version="2.25.0" provider-name="Team Kodi">
   <backwards-compatibility abi="2.1.0"/>
   <requires>
