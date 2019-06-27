@@ -33,7 +33,6 @@
     <string id="30064">vous habitez ou d'où vous avez accès à ce contenu.</string>
     <string id="30065">Sortir</string>
     <string id="30066">Entrer</string>
-    <string id="30067">Pardon! Impossible de trouver la vidéo</string>
 
     <string id="30100">Catégories</string>
     <string id="30101">Sous-catégories</string>
@@ -54,9 +53,7 @@
     <string id="30116">Musique</string>
     <string id="30117">Vidéos similaires</string>
     <string id="30118">Actrices Porno</string>
-    <string id="30119">Populaire par pays</string>
-    <string id="30120">Meilleur classé</string>
-    <string id="30121">Le plus regardé</string>
-    <string id="30122">Homosexuel</string>
-    <string id="30123">Transexuel</string>
+	<string id="30119">Populaire par pays</string>
+	<string id="30120">Meilleur classé</string>
+	<string id="30121">Le plus regardé</string>
 </strings>

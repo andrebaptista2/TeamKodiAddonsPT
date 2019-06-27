@@ -34,7 +34,6 @@
     <string id="30064">paikassa, josta haluat sisältöä käyttää.</string>
     <string id="30065">Poistu</string>
     <string id="30066">Sisään</string>
-    <string id="30067">Sorry! Videota ei voitu löytää</string>
 
     <string id="30100">Kategoria</string>
     <string id="30101">Alikategoria</string>
@@ -55,9 +54,7 @@
     <string id="30116">Musiikki</string>
     <string id="30117">Aiheeseen liittyvät videot</string>
     <string id="30118">Pornonäyttelijöistä</string>
-    <string id="30119">Suosittuja maittain</string>
-    <string id="30120">Suosituimmat</string>
-    <string id="30121">Eniten katsottu</string>
-    <string id="30122">Homo</string>
-    <string id="30123">Transseksualisti</string>
+	<string id="30119">Suosittuja maittain</string>
+	<string id="30120">Suosituimmat</string>
+	<string id="30121">Eniten katsottu</string>
 </strings>

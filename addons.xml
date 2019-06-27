@@ -1,5 +1,524 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
+<addon id="plugin.video.youtube" name="YouTube" version="6.5.0" provider-name="anxdpanic, bromix">
+    <requires>
+        <import addon="xbmc.python" version="2.20.0"/>
+        <import addon="script.module.six" version="1.11.0"/>
+        <import addon="script.module.requests" version="2.12.4"/>
+        <import addon="script.module.inputstreamhelper" version="0.2.2" optional="true"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="resources/lib/default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.service" library="resources/lib/startup.py" start="login"/>
+    <extension point="xbmc.python.module" library="resources/lib/"/>
+    <extension point="xbmc.addon.metadata">
+        <news>
+6.5.0
+[add] Video quality selection to Settings - MPEG-DASH
+[add] Limit to 30fps to Settings - MPEG-DASH
+[add] Uploads playlist to channel playlists
+[chg] Use search for channel videos instead of the Uploads playlist
+[fix] Signature cipher, some videos unplayable (ie. music videos)
+[fix] Playback monitoring using Python 3
+[fix] unescape html entities in title and plot
+[fix] handling of invalid grant when refreshing access token
+[fix] adding suggested videos when played from some widgets
+[fix] http server /client_ip using Python 3 |contrib: t6|
+[upd] refactor youtube_resolver.resolve
+[lang] el_gr strings |contrib: twilight0|
+[lang] es_es strings |contrib: roliverosc|
+[lang] ko_kr strings |contrib: parkmino|
+        </news>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+        <summary lang="en_GB">Plugin for YouTube</summary>
+        <description lang="en_GB">YouTube is one of the biggest video-sharing websites of the world.</description>
+        <disclaimer lang="en_GB">This plugin is not endorsed by Google</disclaimer>
+        <summary lang="he_IL">תוסף עבור YouTube</summary>
+        <description lang="he_IL">YouTube הוא אחד מאתרי שיתוף הווידאו הגדולים בעולם.</description>
+        <summary lang="de_DE">Plugin für YouTube</summary>
+        <description lang="de_DE">YouTube ist eines der größten Video-Sharing-Websites der Welt.</description>
+        <summary lang="pl_PL">Wtyczka YouTube</summary>
+        <description lang="pl_PL">YouTube jest jednym z największych na świecie serwisów udostępniania wideo.</description>
+        <summary lang="hu_HU">YouTube kiegészítő</summary>
+        <description lang="hu_HU">A YouTube világ egyik legnagyobb videómegosztó weboldala.</description>
+        <summary lang="es_ES">Plugin para YouTube</summary>
+        <description lang="es_ES">YouTube es uno de los sitios web para compartir videos más grande del mundo.</description>
+        <disclaimer lang="es_ES">Este add-on no está respaldado por Google</disclaimer>
+        <summary lang="es_MX">Plugin para YouTube</summary>
+        <description lang="es_MX">YouTube es uno de los más grandes sitios web de intercambio de videos del mundo.</description>
+        <disclaimer lang="es_MX">Este add-on no está respaldado por Google</disclaimer>
+        <summary lang="ru_RU">Видеодополнение YouTube</summary>
+        <description lang="ru_RU">YouTube - популярнейший видеохостинговый сайт, предоставляющий пользователям услуги хранения, доставки и показа видео.</description>
+        <summary lang="fr_FR">Plugin pour YouTube</summary>
+        <description lang="fr_FR">YouTube est l'un des plus grands sites de partage vidéos du monde.</description>
+        <summary lang="zh_CN">YouTube附加元件</summary>
+        <description lang="zh_CN">「Youtube」是全世界最大的影片分享網站</description>
+        <summary lang="zh_TW">YouTube附加元件</summary>
+        <description lang="zh_TW">「Youtube」是全世界最大的影片分享網站</description>
+        <disclaimer lang="zh_TW">此附加元件未由Google支持</disclaimer>
+        <summary lang="bg_BG">Добавка за YouTube</summary>
+        <description lang="bg_BG">YouTube е един от най-големите уеб сайтове за споделяне на видео в целия свят.</description>
+        <summary lang="el_GR">Πρόσθετο YouTube</summary>
+        <description lang="el_GR">Το YouTube είναι μία από τις μεγαλύτερες ιστοσελίδες διαμοιρασμού βίντεο στον κόσμο.</description>
+        <disclaimer lang="el_GR">Η παρούσα μικροεφαρμογή δεν έχει υϊοθετηθεί από την Google</disclaimer>
+        <summary lang="nb_NO">Tillegg for YouTube</summary>
+        <description lang="nb_NO">YouTube er en av verdens største nettsider for videodeling.</description>
+        <summary lang="ko_KR">유튜브 플러그인</summary>
+        <description lang="ko_KR">유튜브는 세상에서 가장 큰 동영상 공유 사이트 중의 하나입니다.</description>
+        <language></language>
+        <platform>all</platform>
+        <license>GPL-2.0-only</license>
+        <forum>https://forum.kodi.tv/showthread.php?tid=325740</forum>
+        <website>https://www.youtube.com</website>
+        <email>ytplugin at datanet dot ws</email>
+        <source>https://github.com/jdf76/plugin.video.youtube</source>
+        <reuselanguageinvoker>true</reuselanguageinvoker>
+    </extension>
+</addon>
+
+<addon id="plugin.video.WorldOfWrestling" name="World Of Wrestling" version="1.5" provider-name="Loki">
+    <requires>
+        <import addon="xbmc.python" version="2.19.0" />
+        <import addon="script.module.universalscrapers" version="1.0.0" />
+        <import addon="script.module.python.koding.aio" version="0.9.6.6" />
+        <import addon="script.module.beautifulsoup" version="3.2.1" />
+        <import addon="script.module.requests" version="2.9.1" />
+        <import addon="script.module.addon.common" version="2.0.0" />
+        <import addon="script.module.xmltodict" version="0.9.0" />
+        <import addon="plugin.video.youtube" version="3.0.0"/>
+		<import addon="script.module.dateutil" />
+        <!--<import addon="script.module.web-pdb" version="1.0"/>-->
+        <import addon="script.module.resolveurl" />
+        <!--<import addon="script.module.urlresolver" />-->
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.service" library="service.py" start="[login|startup]" />
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">World Of Wrestling</summary>
+        <description lang="en"></description>
+        <disclaimer lang="en">The author is not responsible for the use of this addon. The author is not responsible for the content found using this addon. The author does not host or own any content found within this addon.[CR]The author is in no way affiliated with Kodi, Team Kodi, or the XBMC Foundation.[CR]This is a Non-profit resource, organized solely for educational purposes which is protected under the Fair-Use doctrine of the Copyright Act, Specifically section 107, which does promote freedom of expression, by permitting the unlicensed use of copyright-protected works.</disclaimer>
+        <platform>all</platform>
+        <website/>
+        <video_guide></video_guide>
+        <reuselanguageinvoker>false</reuselanguageinvoker>
+    </extension>
+</addon>
+
+<addon id="plugin.video.vida"
+       name="[COLOR cyan][B]--VIDA--[/B][/COLOR]"
+       version="4.9.0"
+       provider-name="IZAC">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+	<import addon="script.module.t0mm0.common" version="2.0.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.beautifulsoup4" />
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.requests" />
+    <import addon="script.module.httplib2" />
+    <import addon="script.module.youtube.dl" optional="true"/>
+    <import addon="plugin.video.youtube" version="3.0.0"/>
+    <import addon="script.module.urlresolver" optional="true"/>
+    <import addon="script.module.simplejson" /> 
+    <import addon="script.common.plugin.cache" version="2.5.2"/>
+    <import addon="script.module.metahandler" version="2.5.1"/>
+
+   </requires>
+  <extension point="xbmc.python.pluginsource" library="youtube.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">vida</summary>
+    <description lang="pt">[B][COLOR cyan]--EQUIPE VIDA--[/COLOR][/B][B][COLOR white] IZAC -- BRIDA -- MORNING STAR -- NANDA TRISTANIA -- WILLIAN RDN.[/COLOR][/B]</description>
+	<disclaimer lang="en">--VIDA-- dê um UP na sua TV</disclaimer>
+	<platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.Nordeste.Tv" name="[COLOR yellow][B]Nordes[/COLOR][COLOR green][B]Tv[/B][/COLOR]" version="2.0" provider-name="Luis Carlos">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.beautifulsoup4"/>
+    <import addon="script.module.requests"/>
+    <import addon="script.module.httplib2"/>
+    <import addon="script.module.youtube.dl" optional="true"/>
+    <import addon="plugin.video.youtube"/>
+    <import addon="script.module.urlresolver" optional="true"/>
+    <import addon="script.module.simplejson"/> 
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">NordesTv</summary>
+    <description lang="en">[COLOR yellow]l[/COLOR] TV [COLOR yellow]l[/COLOR] FILMES [COLOR yellow]l[/COLOR] SERIES [COLOR yellow]l[/COLOR] LANCAMENTOS [COLOR yellow]l[/COLOR] HD [COLOR yellow]l[/COLOR] FHD [COLOR yellow]l[/COLOR]
+[COLOR yellow]l[/COLOR] O autor não hospeda nem possui nenhum conteúdo encontrado neste addon. O autor não é responsável pelo uso e pelo conteúdo encontrado neste addon [COLOR yellow]l[/COLOR]
+l [COLOR green][B]Nordes [/B][/COLOR][COLOR yellow][B]TV[/B][/COLOR]- DO CINEMA PARA SUA CASA -[COLOR yellow]l[/COLOR]</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.netfreeplay"
+       name="[B][COLOR red]NETFREE[/COLOR] PLAY[/B]"
+       version="1.1"
+       provider-name="[B][COLOR red]NTFPLAY[/COLOR][/B]">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+	<import addon="script.module.t0mm0.common" version="2.0.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.beautifulsoup4" />
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.requests" />
+    <import addon="script.module.httplib2" />
+    <import addon="script.module.youtube.dl" optional="true"/>
+    <import addon="plugin.video.youtube" version="3.0.0"/>
+    <import addon="script.module.urlresolver" optional="true"/>
+    <import addon="script.module.simplejson" /> 
+    <import addon="script.common.plugin.cache" version="2.5.2"/>
+    <import addon="script.module.metahandler" version="2.5.1"/>
+
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">[COLOR red]NTFPLAY [/COLOR]assim como como o google é apenas um agregador de links. Não temos controle dos arquivos encontrados aqui.</summary>
+    <description lang="en">[B][COLOR yellow]Tv Online, Filmes, Séries, Programas de TV, Música e muito mais...[/COLOR][/B]</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon
+  id="plugin.video.malandro"
+  version="1.1.2"
+  name="MALANDRO"
+  provider-name="TEAM J2MF4">
+  <requires>
+   <import addon="xbmc.python" version="2.14.0"/>
+  </requires>
+  <extension 
+    point="xbmc.python.pluginsource"
+    library="default.py">
+   <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Play videos from different adult streaming sites</summary>
+    <description>This addon plays videos from YouPorn, Tube8, Boysfood, MoviesAnd, PornoTube, xHamster, KeezMovies and some other adult streaming sites. It contains explicit adult material. You may only view this addon if you are at least 18 years of age, or at least the age of majority in the jurisdiction where you reside or from which you access this content. If you do not meet these requirements, then you do not have permission to use this addon. </description>
+    <disclaimer>The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with the content provider.</disclaimer>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.livetvSerbia"
+       name="Live TV Serbia"
+       version="1.1.9"
+       provider-name="livetvSerbia">
+  <requires>
+   
+	
+    <import addon="xbmc.python" version="2.1.0"/>
+	<import addon="script.module.t0mm0.common" version="2.0.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.simple.downloader" version="1.9.6"/>
+    <import addon="script.module.beautifulsoup4" />
+    <import addon="script.module.requests" />
+    <import addon="script.module.httplib2" />
+    <import addon="script.module.youtube.dl" optional="true"/>
+    <import addon="plugin.video.youtube" optional="true"/>
+    <import addon="script.module.urlresolver" version="5.0.26"/>
+    <import addon="script.module.simplejson" /> 
+    <import addon="script.module.metahandler" version="2.5.1"/>
+	<import addon="script.module.futures"/>
+
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Live IPTV channels from Balkan</summary>
+    <description lang="en">Watch IPTV channels from Balkan. 
+For more info visit our FB page @ facebook.com/livetvserbia
+	</description>
+	 <disclaimer lang="en">The author is not responsible for the use of this addon. The author is not responsible for the content found using this addon. The author does not host or own any content found within this addon.[CR]The author is in no way affiliated with Kodi, Team Kodi, or the XBMC Foundation.[CR]This is a Non-profit resource, organized solely for educational purposes which is protected under the Fair-Use doctrine of the Copyright Act, Specifically section 107, which does promote freedom of expression, by permitting the unlicensed use of copyright-protected works.</disclaimer>
+			<forum>http://fb.com/livetvserbia</forum>
+		<website>http://livetvkodiserbia.com</website>
+		<source>http://livetvkodiserbia.com/kodi/repository</source>
+    <platform>all</platform>
+	  <assets>
+			<icon>icon.png</icon>
+			<fanart>fanart.jpg</fanart>
+			<screenshot>resources/screenshots/screenshot-001.jpg</screenshot>
+			<screenshot>resources/screenshots/screenshot-002.jpg</screenshot>
+			<screenshot>resources/screenshots/screenshot-003.jpg</screenshot>
+		</assets>
+		
+		<news>
+V1.1.9
+- url fix
+
+V1.1.8
+- Common cache removed
+- URL Resolver added
+
+V1.1.7
+- Favorites fix
+- Security improvements
+
+v1.1.6
+- Youtube addon fix
+- Added screenshoots and info in addon installation
+
+v1.1.5
+- Fixed Croatian channels 
+
+v1.1.4
+- Added new Croatian channels + Sport Klub
+
+v1.1.3
+- Added script.module.urlresolver
+
+v1.1.2
+- Some addon improvements
+
+v1.1.1
+- Fix
+  
+v1.1.0
+- Bulgaria ITPV now can open without ChromeLauncher addon
+  And you can watch on android
+  
+V1.0
+Initial Release
+</news>
+  </extension>
+
+</addon>
+
+<addon id="plugin.video.Live.Tv" 
+       name="[COLOR orange][B][COLOR lime]Live[/COLOR] TV[/B]" 
+       version="999.9.9" 
+       provider-name="Live Tv">
+    <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+	<import addon="script.module.t0mm0.common" version="2.0.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.beautifulsoup4"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.requests" />
+    <import addon="script.module.httplib2" />
+    <import addon="script.module.youtube.dl" optional="true"/>
+    <import addon="plugin.video.youtube" version="3.0.0"/>
+    <import addon="script.module.urlresolver"/>
+    <import addon="script.module.simplejson" /> 
+    <import addon="script.common.plugin.cache" version="2.5.2"/>
+    <import addon="script.module.metahandler" version="2.5.1"/>
+	<import addon="script.module.livestreamer" optional="true"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">FILMES [COLOR lime]|[/COLOR] SÉRIES [COLOR lime]|[/COLOR] ANIMES [COLOR lime]|[/COLOR] FILMES MAIS ESPERADOS [COLOR lime]|[/COLOR] COLETÂNEA [COLOR lime]|[/COLOR] TV AO VIVO</summary>
+	
+	<description lang="en">[COLOR lime]|[/COLOR] O autor não hospeda nem possui nenhum conteúdo encontrado neste addon [COLOR lime]|[/COLOR]
+
+MELHOR LISTA DE CANAIS VIA INTERNET  [COLOR orange][B][COLOR lime]LIVE[/COLOR] TV[/B]</description>
+	<disclaimer lang="en">O autor não é de forma alguma afiliado à Kodi, à Team Kodi ou à XBMC Foundation. Este é um recurso sem fins lucrativos, organizado exclusivamente para fins educacionais e protegido pela doutrina de uso justo da Lei de Direitos Autorais, especificamente a seção 107, que promove a liberdade de expressão, permitindo o uso não licenciado de obras protegidas por direitos autorais.</disclaimer>
+    <platform>all</platform>
+	<website/>
+        <video_guide></video_guide>
+        <reuselanguageinvoker>false</reuselanguageinvoker>
+      <assets>
+      	<icon>icon.png</icon>
+    	<fanart>fanart.jpg</fanart>
+        <screenshot>resources/screenshots/01.jpg</screenshot>
+        <screenshot>resources/screenshots/02.jpg</screenshot>
+        <screenshot>resources/screenshots/03.jpg</screenshot>
+      </assets>
+  </extension>
+</addon>
+
+<addon id="plugin.video.limitless" name="Limitless" version="3.6" provider-name="Luxury">
+    <requires>
+        <import addon="xbmc.python" version="2.19.0" />
+        <import addon="script.module.universalscrapers" version="1.1.5.a" />
+        <import addon="script.module.python.koding.aio" version="0.9.6.6" />
+        <import addon="script.module.beautifulsoup" version="3.2.1" />
+        <import addon="script.module.requests" version="2.9.1" />
+        <import addon="script.module.addon.common" version="2.0.0" />
+        <import addon="script.module.xmltodict" version="0.9.0" />
+		<import addon="script.module.limitless-livenet" />
+		<import addon="script.module.limitless-tvtap" />
+        <import addon="script.module.dateutil" />
+		<import addon="script.module.feedparser" version="5.1.3"/>
+        <!--<import addon="script.module.web-pdb" version="1.0"/>-->
+        <import addon="script.module.resolveurl" />
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.service" library="service.py" start="[login|startup]" />
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">Movies And Tv Shows</summary>
+        <description lang="en">All In One.</description>
+        <disclaimer lang="en">The author is not responsible for the use of this addon. The author is not responsible for the content found using this addon. The author does not host or own any content found within this addon.[CR]The author is in no way affiliated with Kodi, Team Kodi, or the XBMC Foundation.[CR]This is a Non-profit resource, organized solely for educational purposes which is protected under the Fair-Use doctrine of the Copyright Act, Specifically section 107, which does promote freedom of expression, by permitting the unlicensed use of copyright-protected works.</disclaimer>
+        <platform>all</platform>
+        <website></website>
+        <video_guide></video_guide>
+        <reuselanguageinvoker>false</reuselanguageinvoker>
+    </extension>
+</addon>
+
+<addon id="plugin.video.KeltecMPIPTV" name="[B][COLOR blue]KeltecMP[/COLOR] [COLOR red]IPTV[/COLOR][/B]" version="19.02.02" provider-name="KeltecMPIPTV">  <extension point="xbmc.python.pluginsource" library="default.py">        <provides>video</provides>  </extension>  <extension point="xbmc.addon.metadata">    <summary lang="en">MMFilmes</summary>    <description lang="en">Addon modificado do PlaylistLoader 1.2.0 por Avigdor https://github.com/avigdork/xbmc-avigdork. Nao somos responsaveis por colocar o conteudo online, apenas indexamos. Para sugestoes e report de bugs nossa pagina no FB: [COLOR blue]http://fb.com/keltecmp.iptv/[/COLOR]</description>    <platform>all</platform>	<news>	</news>  </extension></addon>
+
+<addon id="plugin.video.FORMIGAtv" name="[COLOR  blue][B]FORMIGA[COLOR  silver][B]tv[/B][/COLOR]" version="3.0" provider-name="TEAMFORMIGAtv">
+
+  <requires>
+
+    <import addon="xbmc.python" version="2.1.0"/>
+
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+
+    <import addon="script.module.beautifulsoup4"/>
+
+    <import addon="script.module.requests"/>
+
+    <import addon="script.module.httplib2"/>
+
+    <import addon="script.module.youtube.dl" optional="true"/>
+
+    <import addon="plugin.video.youtube"/>
+
+    <import addon="script.module.urlresolver" optional="true"/>
+
+    <import addon="script.module.simplejson"/>
+ 
+  </requires>
+
+  <extension point="xbmc.python.pluginsource" library="default.py">
+
+        <provides>video</provides>
+
+  </extension>
+
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">[COLOR  white][B]Sempre[COLOR  blue][B]Atualizando[/B][/COLOR][COLOR  white][B]..[/B][/COLOR]</summary>
+	     <description lang="pt">[B][COLOR cyan]ADDON FORMIGAtv [/COLOR][/B][B][COLOR white] é apenas um AGREGADOR de links e, assim como o Google.com, apenas agrega e organiza os links externos. Não somos responsáveis pelos arquivos aqui encontrados.[/COLOR][/B]</description>
+		 <disclaimer lang="en">FORMIGAtv - Sua Nova Forma De Ver TV</disclaimer>
+    <platform>all</platform>
+ 
+ </extension>
+
+</addon>
+
+<addon id="plugin.video.deceit" name="Deceit" version="1.2.2" provider-name="Collusion/OneNation">
+    <requires>
+        <import addon="xbmc.python" version="2.19.0" />
+        <import addon="script.module.universalscrapers" version="1.0.0" />
+        <import addon="script.module.python.koding.aio" version="0.9.6.6" />
+        <import addon="script.module.beautifulsoup" version="3.2.1" />
+        <import addon="script.module.requests" version="2.9.1" />
+        <import addon="script.module.addon.common" version="2.0.0" />
+        <import addon="script.module.xmltodict" version="0.9.0" />
+        <import addon="plugin.video.youtube"
+version="6.0.0~alpha6" />
+        <import addon="script.module.dateutil" />
+        <!--<import addon="script.module.web-pdb" version="1.0"/>-->
+        <import addon="script.module.resolveurl" />
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>audio video</provides>
+    </extension>
+    <extension point="xbmc.service" library="service.py" start="[login|startup]" />
+    <extension point="xbmc.addon.metadata">
+      <reuselanguageinvoker>false</reuselanguageinvoker>
+      <summary lang="en">Collusion/OneNation</summary>
+      <summary lang="he">הרחבת וידאו Jen</summary>
+      <description lang="en">An All-In-One Jen Powered Addon from Collusion and the OneNation Team. Massive Respect to all over in the Jen group without whom this wouldnt of been possible</description>
+      <description lang="he">האחות הקטנה של בוב</description>
+      <disclaimer lang="en">The author of this addon do not host any of the content which is found and have no affiliation with any of the content providers. This addon simply searches websites for content. Use at your own risk!</disclaimer>
+      <disclaimer lang="he">מחבר ההרחבה זה אינו מארח את התוכן שיתכן ויימצא ואין לו זיקה לאף אחד מספקי התוכן. הרחבה רק מחפשת תוכן שקיים באתרי אינטרנט. השימוש בהרחבה הוא על אחריותך בלבד!</disclaimer>
+      <platform>all</platform>
+        <website></website>
+        <video_guide></video_guide>
+    </extension>
+</addon>
+
+<addon id="plugin.video.bkr" version="3.0.0.3" name="[COLOR gold][B]B[/B][/COLOR]oxset [COLOR gold][B]K[/B][/COLOR]ings [COLOR gold][B]Reborn[/B][/COLOR]" provider-name="[B][COLOR gold][Brackets][/COLOR][/B]">
+    <requires>
+        <import addon="xbmc.python" version="2.19.0"/>
+        <import addon="script.bkr.artwork" version="2018.04.02"/>
+        <import addon="script.module.resolveurl" />
+        <import addon="script.module.metahandler" version="2.9.0"/>
+        <import addon="script.module.requests" version="2.12.4"/>
+        <import addon="script.module.beautifulsoup" version="3.2.1"/>
+        <import addon="script.module.schism.common" version="2018.12.16"/>
+        <import addon="script.module.futures" version="2.2.0"/>
+        <import addon="script.module.universalscrapers" version="1.0.0"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="bkr.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">All your boxsets in one addon</summary>
+        <description lang="en">None of the Original Devs wanted their names metioned in this addon. Without the original developers this add-on would never exist. Thanks for all they have brought to the community.[CR][COLOR gold][B]B[/B][/COLOR]oxset [COLOR gold][B]K[/B][/COLOR]ings is reborn for anyone to enjoy.</description>
+        <disclaimer lang="en">The author does not host any content, nor is he affiliated with any of the content providers.</disclaimer>
+        <platform>all</platform>
+        <news>
+V3.0.0.3
+-New Official Repo
+-Intial Release
+-Fork of Boxset Kings
+-Added Artwork Script
+		</news>
+        <assets>
+            <icon>icon.gif</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon>
+
+<addon id="plugin.program.AresMilhano18" name=" [B][COLOR orange]Ares Milhano Wizard[/COLOR][/B]" version="1.0" provider-name="[B][COLOR red]Milhano[/COLOR][/B]">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+	</requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.service" library="startup.py" start="startup" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Ares Milhano Wizard</summary>
+    <description lang="en">Em breve mais novidades...</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="KeltecMP.repository" name="[B][COLOR gold]Repositorio[/COLOR]: [COLOR blue]KelTecMP[/COLOR] [COLOR red]IPTV[/COLOR][/B]" version="0.0.4" provider-name="Team Ezequiel KelTec">
+	<extension point="xbmc.addon.repository" name="KelTecMP IPTV Repo">
+		<info compressed="false">http://keltecmp.tk/addons.xml</info>
+		<checksum>http://keltecmp.tk/addons.xml.md5</checksum>
+		<datadir zip="true">http://keltecmp.tk/Plugins/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Repositorio Oficial KelTecMP IPTV</summary>
+		<description>Repositorio oficial KelTecMP IPTV - Proibido reproducao //Grupo Facebook KeltecMP IPTV https://www.facebook.com/groups/1637920199584939/</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
 <addon 	id="repository.united.wizard" 
 		name="[COLOR lime][B]United[/B][/COLOR][COLOR cyan][B]Wizard[/B][/COLOR][COLOR red][B]Repo[/B][/COLOR]" 
 		version="1.0" 
@@ -1162,87 +1681,6 @@ Toda a fonte  vem de utilizadores do Youtube.
   </extension>
 </addon>
 
-<addon id="plugin.video.youtube" name="YouTube" version="6.4.1" provider-name="anxdpanic, bromix">
-    <requires>
-        <import addon="xbmc.python" version="2.20.0"/>
-        <import addon="script.module.six" version="1.11.0"/>
-        <import addon="script.module.requests" version="2.12.4"/>
-        <import addon="script.module.inputstreamhelper" version="0.2.2" optional="true"/>
-    </requires>
-    <extension point="xbmc.python.pluginsource" library="resources/lib/default.py">
-        <provides>video</provides>
-    </extension>
-    <extension point="xbmc.service" library="resources/lib/startup.py" start="login"/>
-    <extension point="xbmc.python.module" library="resources/lib/"/>
-    <extension point="xbmc.addon.metadata">
-        <news>
-6.4.1
-[upd] Use the activation url provided by the authentication request
-[add] add Settings - MPEG-DASH - Default to WEBM adaptation set
-        - required for 4k stream automatic selection
-[add] add Settings - MPEG-DASH - Include VP9.2
-        - includes HDR content in the manifest
-[add] add support for &amp;hide_folders=true parameter in search query urls
-        - when added to the url it will hide the Playlists, Channels, and Live folders
-[add] &amp;seek=&lt;time_in_seconds&gt; to play urls
-[fix] fix playback of Purchases
-[fix] fixed saved playlists that don't belong to a channel
-[fix] mpeg-dash frame rate representation
-[fix] datetime parsing if no datetime string is available
-[chg] handle playback monitoring in threads
-[lang] nl_nl strings |contrib: MB1968|
-[lang] el_gr strings |contrib: twilight0|
-        </news>
-        <assets>
-            <icon>icon.png</icon>
-            <fanart>fanart.jpg</fanart>
-        </assets>
-        <summary lang="en_GB">Plugin for YouTube</summary>
-        <description lang="en_GB">YouTube is one of the biggest video-sharing websites of the world.</description>
-        <disclaimer lang="en_GB">This plugin is not endorsed by Google</disclaimer>
-        <summary lang="he_IL">תוסף עבור YouTube</summary>
-        <description lang="he_IL">YouTube הוא אחד מאתרי שיתוף הווידאו הגדולים בעולם.</description>
-        <summary lang="de_DE">Plugin für YouTube</summary>
-        <description lang="de_DE">YouTube ist eines der größten Video-Sharing-Websites der Welt.</description>
-        <summary lang="pl_PL">Wtyczka YouTube</summary>
-        <description lang="pl_PL">YouTube jest jednym z największych na świecie serwisów udostępniania wideo.</description>
-        <summary lang="hu_HU">YouTube kiegészítő</summary>
-        <description lang="hu_HU">A YouTube világ egyik legnagyobb videómegosztó weboldala.</description>
-        <summary lang="es_ES">Plugin para YouTube</summary>
-        <description lang="es_ES">YouTube es uno de los sitios web para compartir videos más grande del mundo.</description>
-        <disclaimer lang="es_ES">Este add-on no está respaldado por Google</disclaimer>
-        <summary lang="es_MX">Plugin para YouTube</summary>
-        <description lang="es_MX">YouTube es uno de los más grandes sitios web de intercambio de videos del mundo.</description>
-        <disclaimer lang="es_MX">Este add-on no está respaldado por Google</disclaimer>
-        <summary lang="ru_RU">Видеодополнение YouTube</summary>
-        <description lang="ru_RU">YouTube - популярнейший видеохостинговый сайт, предоставляющий пользователям услуги хранения, доставки и показа видео.</description>
-        <summary lang="fr_FR">Plugin pour YouTube</summary>
-        <description lang="fr_FR">YouTube est l'un des plus grands sites de partage vidéos du monde.</description>
-        <summary lang="zh_CN">YouTube附加元件</summary>
-        <description lang="zh_CN">「Youtube」是全世界最大的影片分享網站</description>
-        <summary lang="zh_TW">YouTube附加元件</summary>
-        <description lang="zh_TW">「Youtube」是全世界最大的影片分享網站</description>
-        <disclaimer lang="zh_TW">此附加元件未由Google支持</disclaimer>
-        <summary lang="bg_BG">Добавка за YouTube</summary>
-        <description lang="bg_BG">YouTube е един от най-големите уеб сайтове за споделяне на видео в целия свят.</description>
-        <summary lang="el_GR">Πρόσθετο YouTube</summary>
-        <description lang="el_GR">Το YouTube είναι μία από τις μεγαλύτερες ιστοσελίδες διαμοιρασμού βίντεο στον κόσμο.</description>
-        <disclaimer lang="el_GR">Η παρούσα μικροεφαρμογή δεν έχει υϊοθετηθεί από την Google</disclaimer>
-        <summary lang="nb_NO">Tillegg for YouTube</summary>
-        <description lang="nb_NO">YouTube er en av verdens største nettsider for videodeling.</description>
-        <summary lang="ko_KR">유튜브 플러그인</summary>
-        <description lang="ko_KR">유튜브는 세상에서 가장 큰 동영상 공유 사이트 중의 하나입니다.</description>
-        <language></language>
-        <platform>all</platform>
-        <license>GPL-2.0-only</license>
-        <forum>https://forum.kodi.tv/showthread.php?tid=325740</forum>
-        <website>https://www.youtube.com</website>
-        <email>ytplugin at datanet dot ws</email>
-        <source>https://github.com/jdf76/plugin.video.youtube</source>
-        <reuselanguageinvoker>true</reuselanguageinvoker>
-    </extension>
-</addon>
-
 <addon
   id="plugin.video.SportsDevil"
   version="2018.09.20"
@@ -1698,27 +2136,6 @@ Toda a fonte  vem de utilizadores do Youtube.
 		<disclaimer></disclaimer>
 		<platform>all</platform>
 	</extension>
-</addon>
-
-<addon
-  id="plugin.video.malandro"
-  version="1.1.2"
-  name="MALANDRO"
-  provider-name="TEAM J2MF4">
-  <requires>
-   <import addon="xbmc.python" version="2.14.0"/>
-  </requires>
-  <extension 
-    point="xbmc.python.pluginsource"
-    library="default.py">
-   <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary>Play videos from different adult streaming sites</summary>
-    <description>This addon plays videos from YouPorn, Tube8, Boysfood, MoviesAnd, PornoTube, xHamster, KeezMovies and some other adult streaming sites. It contains explicit adult material. You may only view this addon if you are at least 18 years of age, or at least the age of majority in the jurisdiction where you reside or from which you access this content. If you do not meet these requirements, then you do not have permission to use this addon. </description>
-    <disclaimer>The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with the content provider.</disclaimer>
-    <platform>all</platform>
-  </extension>
 </addon>
 
 <addon id="plugin.video.onfire" name="onfire" version="1.0.0" provider-name="onfire">
