@@ -903,27 +903,6 @@ MELHOR LISTA DE CANAIS VIA INTERNET  [COLOR orange][B][COLOR lime]LIVE[/COLOR] T
   </extension>
 </addon>
 
-<addon
-  id="plugin.video.malandro"
-  version="1.1.2"
-  name="MALANDRO"
-  provider-name="TEAM J2MF4">
-  <requires>
-   <import addon="xbmc.python" version="2.14.0"/>
-  </requires>
-  <extension 
-    point="xbmc.python.pluginsource"
-    library="default.py">
-   <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary>Play videos from different adult streaming sites</summary>
-    <description>This addon plays videos from YouPorn, Tube8, Boysfood, MoviesAnd, PornoTube, xHamster, KeezMovies and some other adult streaming sites. It contains explicit adult material. You may only view this addon if you are at least 18 years of age, or at least the age of majority in the jurisdiction where you reside or from which you access this content. If you do not meet these requirements, then you do not have permission to use this addon. </description>
-    <disclaimer>The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with the content provider.</disclaimer>
-    <platform>all</platform>
-  </extension>
-</addon>
-
 <addon id="plugin.video.livetvSerbia"
        name="Live TV Serbia"
        version="1.1.9"
@@ -2840,34 +2819,6 @@ Toda a fonte  vem de utilizadores do Youtube.
   </extension>
 </addon>
 
-<addon id="plugin.video.team.j2mf4"
-       name="TEAM J2MF4"
-       version="3.0"
-       provider-name="COCA COLA MAN">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-    <import addon="script.module.beautifulsoup" version="3.2.1"/>
-    <import addon="script.module.simple.downloader" version="0.9.4"/>
-    <import addon="script.module.beautifulsoup4" />
-    <import addon="script.module.requests" />
-    <import addon="script.module.httplib2" />
-    <import addon="script.module.youtube.dl" optional="true"/>
-    <import addon="plugin.video.youtube" optional="true" />
-    <import addon="script.module.urlresolver" optional="true"/>
-    <import addon="script.module.simplejson" />
-	<import addon="script.module.livestreamer" optional="true"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-    <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary>TOPIPTV BY TEAM J2MF4</summary>
-    <description>TEAM J2MF4 IPTV4ALL "WE LEAD THE WAY"
- </description>
-    <platform>all</platform>
-  </extension>
-</addon>
-
 <addon id="plugin.video.Martunis" name="Martunis" version="1.0.2" provider-name="Martunis">
 
   <requires>
@@ -2908,34 +2859,6 @@ Toda a fonte  vem de utilizadores do Youtube.
  
  </extension>
 
-</addon>
-
-<addon id="plugin.video.kidzflix"
-       name="KIDzFLIX"
-       version="1.0"
-       provider-name="LUIS - COCA COLA MAN">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-    <import addon="script.module.beautifulsoup" version="3.2.1"/>
-    <import addon="script.module.simple.downloader" version="0.9.4"/>
-    <import addon="script.module.beautifulsoup4" />
-    <import addon="script.module.requests" />
-    <import addon="script.module.httplib2" />
-    <import addon="script.module.youtube.dl" optional="true"/>
-    <import addon="plugin.video.youtube" optional="true" />
-    <import addon="script.module.urlresolver" optional="true"/>
-    <import addon="script.module.simplejson" />
-	<import addon="script.module.livestreamer" optional="true"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-    <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary>KIDzFLIX BY TEAM J2MF4</summary>
-    <description>KIDzFLIX ....Bringing Joy To A Child
- </description>
-    <platform>all</platform>
-  </extension>
 </addon>
 
 <addon id="plugin.video.divino"
