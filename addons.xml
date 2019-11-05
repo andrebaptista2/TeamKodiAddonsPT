@@ -1,5 +1,105 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
+<addon id="script.kelebek"
+       name="KELEBEK"
+       version="3.2.2"
+       provider-name="Anabel">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>	
+    <import addon="script.module.pyxbmct" version="1.1.4" />
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.beautifulsoup4" />
+    <import addon="script.module.requests" />
+    <import addon="script.module.myconnpy" version="1.1.7"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="main.py">
+	<provides>executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary>KELEBEK V3.2</summary>
+    <description>Scan Sources searching changes and addons</description>
+    <language></language>
+    <license></license>
+    <source></source>
+    <forum></forum>
+    <website></website>
+	<assets>
+		<icon>resources/icon.png</icon>
+		<fanart>resources/fanart.jpg</fanart>
+	</assets>
+  </extension>
+</addon>
+
+<addon id="plugin.video.1x2"
+  version="1.0.21"
+  name="1x2"
+  provider-name="Team NS">
+  <requires>
+    <import addon="xbmc.python" version="2.25.0"/>
+    <import addon="script.module.requests" version="2.19.1"/>
+    <import addon="script.module.routing" />
+    <import addon="script.module.TvTap" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary lang="es">Los videos son proporcionados por personas ... en línea ... en algún lugar...</summary>
+    <description lang="es">Los videos son proporcionados por personas ... en línea ... en algún lugar...</description>
+    <disclaimer lang="es">El autor no almacena ni distribuye ninguno de los contenidos que se muestran en este addon. El autor no tiene ninguna afiliación con el proveedor de contenidos.</disclaimer>
+    <assets>
+      <icon>icon.gif</icon>
+      <fanart>fanart.jpg</fanart>
+    </assets>
+  </extension>
+</addon>
+
+<addon id="plugin.video.sport365.live" name="Sport365" version="2.6.6.2" provider-name="Bugatsinho">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+        <import addon="script.module.requests" version="2.19.1"/>
+        <import addon="plugin.video.f4mTester" version="2.7.2"/>
+        <import addon="script.module.streamlink.base" version="2019.06.23"/>
+        <import addon="script.module.pyxbmct" version="1.2.0"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="main.py">
+        <provides>video</provides>
+    </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Sport365 originally made by GalAnonim</summary>
+    <description lang="en">Fork version 1.0 by GalAnonim!Kindly note that Sport365 Live is not an official part of the media player you are running, and therefore not to be mentioned within official support channels, this addon has nothing to do with the media player itself, nor it’s intended use, it is simply a third party plugin which has been added to your system.</description>
+    <disclaimer lang="en">Sport365 Live does not provide any streams of its own. Stream quality, content and copyright are responsibility of the ad-financed source web site.</disclaimer>
+    <language>en</language>
+    <platform>all</platform>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+    <website>https://bugatsinho.github.io</website>
+    <twitter>@bugatsinho</twitter>
+  <assets>
+    <icon>icon.png</icon>
+    <fanart>fanart.png</fanart>
+  </assets>
+  <news>2.6.6.2 03-11-2019
+- Fix regex for the events and get key for decrypt website streams</news>
+  </extension>
+</addon>
+
+<addon id="plugin.program.DreamTeam" name=" [B][COLOR orange]Ares Dream Team Wizard[/COLOR][/B]" version="0.1" provider-name="[B][COLOR red]Dream Team Milhano[/COLOR][/B]">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+	</requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.service" library="startup.py" start="startup" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Dream Team Wizard</summary>
+    <description lang="en">https://milhano.com.pt</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
 <addon id="plugin.video.AladoKidz"
        name="AladoKIDZ"
        version="1.0"
