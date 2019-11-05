@@ -1130,21 +1130,6 @@ V3.0.0.3
     </extension>
 </addon>
 
-<addon id="plugin.program.AresMilhano18" name=" [B][COLOR orange]Ares Milhano Wizard[/COLOR][/B]" version="1.0" provider-name="[B][COLOR red]Milhano[/COLOR][/B]">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-	</requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-        <provides>executable</provides>
-  </extension>
-  <extension point="xbmc.service" library="startup.py" start="startup" />
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">Ares Milhano Wizard</summary>
-    <description lang="en">Em breve mais novidades...</description>
-    <platform>all</platform>
-  </extension>
-</addon>
-
 <addon id="KeltecMP.repository" name="[B][COLOR gold]Repositorio[/COLOR]: [COLOR blue]KelTecMP[/COLOR] [COLOR red]IPTV[/COLOR][/B]" version="0.0.4" provider-name="Team Ezequiel KelTec">
 	<extension point="xbmc.addon.repository" name="KelTecMP IPTV Repo">
 		<info compressed="false">http://keltecmp.tk/addons.xml</info>
@@ -2406,30 +2391,6 @@ Toda a fonte  vem de utilizadores do Youtube.
   </extension>
 </addon>
 
-<addon id="plugin.video.mrpiracy" name="MrPiracy" provider-name="MrPiracy" version="0.9.5">
- <requires>
-  <import addon="xbmc.python" version="2.14.0"/>
-  <import addon="script.module.t0mm0.common"/>
-  <import addon="plugin.video.youtube" optional="true" />
-  </requires>
- <extension library="addon.py" point="xbmc.python.pluginsource">
-  <provides>video</provides>
- </extension>
- <extension point="xbmc.addon.metadata">
-    <summary lang="en">MrPiracy</summary>
-    <description lang="en">Addon site MrPiracy</description>
-    <description lang="en">Filmes e series no Kodi. </description>
-    <disclaimer lang="en">Como desenvolvedor do addon, nada tenho a haver com site. O site pode ser acedido por um browser. Limito-me a ler o seu conteúdo disponibilizado e converter em addon.</disclaimer>
-    <language></language>
-    <platform>all</platform>
-    <license></license>
-    <forum></forum>
-    <website></website>
-    <email></email>
-    <source></source>
- </extension>
-</addon>
-
 <addon id="plugin.video.genesis" name="Genesis Change" version="5.1.9" provider-name="Gabriel">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
@@ -2670,35 +2631,6 @@ Toda a fonte  vem de utilizadores do Youtube.
         <website>https://www.tvaddons.co</website>
         <source>https://github.com/tvaddonsco/plugin.program.indigo</source>
     </extension>
-</addon>
-
-<addon id="plugin.video.sport365.live" name="Sport365" version="2.6.1" provider-name="Bugatsinho">
-    <requires>
-        <import addon="xbmc.python" version="2.1.0"/>
-        <import addon="script.module.requests" version="2.19.1"/>
-        <import addon="plugin.video.f4mTester" />
-        <import addon="script.module.streamlink.base" />
-        <import addon="script.module.pyxbmct" version="1.2.0"/>
-    </requires>
-    <extension point="xbmc.python.pluginsource" library="main.py">
-        <provides>video</provides>
-    </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">Sport365 originally made by GalAnonim</summary>
-    <description lang="en">Fork version 1.0 by GalAnonim!Kindly note that Sport365 Live is not an official part of the media player you are running, and therefore not to be mentioned within official support channels, this addon has nothing to do with the media player itself, nor it’s intended use, it is simply a third party plugin which has been added to your system.</description>
-    <disclaimer lang="en">Sport365 Live does not provide any streams of its own. Stream quality, content and copyright are responsibility of the ad-financed source web site.</disclaimer>
-    <language>en</language>
-    <platform>all</platform>
-    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
-    <website>https://bugatsinho.github.io</website>
-    <twitter>@bugatsinho</twitter>
-  <assets>
-    <icon>icon.png</icon>
-    <fanart>fanart.png</fanart>
-  </assets>
-  <news>2.6.1 07-06-2019
-- Fix links resolver</news>
-  </extension>
 </addon>
 
 <addon id="repository.bugatsinho" name=" Bugatsinho repository" version="2.3" provider-name="Bugatsinho">
