@@ -1,0 +1,590 @@
+<dir>
+    <title>[COLOR lightsteelblue]• [/COLOR][COLORlightgrey]A&E[/COLOR]</title>
+    <tmdb>network/shows/129</tmdb>
+    <thumbnail>special://home/addons/plugin.video.vod/xml/images/icon.png</thumbnail>
+    <fantart></fantart>
+</dir>
+
+<dir>
+    <title>[COLOR lightsteelblue]• [/COLOR][COLORlightgrey]ABC - Australia[/COLOR]</title>
+    <tmdb>network/shows/18</tmdb>
+	<thumbnail>special://home/addons/plugin.video.vod/xml/images/icon.png</thumbnail>
+</dir>
+
+<dir>
+    <title>[COLOR lightsteelblue]• [/COLOR][COLORlightgrey]ABC - US[/COLOR]</title>
+    <tmdb>network/shows/2</tmdb>
+	<thumbnail>special://home/addons/plugin.video.vod/xml/images/icon.png</thumbnail>
+</dir>
+
+<dir>
+    <title>[COLOR lightsteelblue]• [/COLOR][COLORlightgrey]ABC Family[/COLOR]</title>
+    <tmdb>network/shows/75</tmdb>
+    <thumbnail>special://home/addons/plugin.video.vod/xml/images/icon.png</thumbnail>
+    <fantart></fantart>
+</dir>
+
+<dir>
+    <title>[COLOR lightsteelblue]• [/COLOR][COLORlightgrey]Adult Swim[/COLOR]</title>
+    <tmdb>network/shows/80</tmdb>
+    <thumbnail>special://home/addons/plugin.video.vod/xml/images/icon.png</thumbnail>
+    <fantart></fantart>
+</dir>
+
+<dir>
+    <title>[COLOR lightsteelblue]• [/COLOR][COLORlightgrey]Amazon[/COLOR]</title>
+    <tmdb>network/shows/1024</tmdb>
+    <thumbnail>special://home/addons/plugin.video.vod/xml/images/icon.png</thumbnail>
+    <fantart></fantart>
+</dir>
+
+<dir>
+    <title>[COLOR lightsteelblue]• [/COLOR][COLORlightgrey]AMC[/COLOR]</title>
+    <tmdb>network/shows/174</tmdb>
+</dir>
+
+<dir>
+    <title>[COLOR lightsteelblue]• [/COLOR][COLORlightgrey]Animal Planet[/COLOR]</title>
+    <tmdb>network/shows/91</tmdb>
+    <thumbnail>special://home/addons/plugin.video.vod/xml/images/icon.png</thumbnail>
+    <fantart></fantart>
+</dir>
+
+<dir>
+    <title>[COLOR lightsteelblue]• [/COLOR][COLORlightgrey]Animax[/COLOR]</title>
+    <tmdb>network/shows/171</tmdb>
+    <thumbnail>special://home/addons/plugin.video.vod/xml/images/icon.png</thumbnail>
+    <fantart></fantart>
+</dir>
+
+<dir>
+    <title>[COLOR lightsteelblue]• [/COLOR][COLORlightgrey]BET[/COLOR]</title>
+    <tmdb>network/shows/24</tmdb>
+    <thumbnail>special://home/addons/plugin.video.vod/xml/images/icon.png</thumbnail>
+    <fantart></fantart>
+</dir>
+
+<dir>
+    <title>[COLOR lightsteelblue]• [/COLOR][COLORlightgrey]BBC[/COLOR]</title>
+    <tmdb>network/shows/7</tmdb>
+    <thumbnail>special://home/addons/plugin.video.vod/xml/images/icon.png</thumbnail>
+    <fantart></fantart>
+</dir>
+
+<dir>
+    <title>[COLOR lightsteelblue]• [/COLOR][COLORlightgrey]BBC America[/COLOR]</title>
+    <tmdb>network/shows/493</tmdb>
+    <thumbnail>special://home/addons/plugin.video.vod/xml/images/icon.png</thumbnail>
+    <fantart></fantart>
+</dir>
+
+<dir>
+    <title>[COLOR lightsteelblue]• [/COLOR][COLORlightgrey]BBC One[/COLOR]</title>
+    <tmdb>network/shows/4</tmdb>
+    <thumbnail>special://home/addons/plugin.video.vod/xml/images/icon.png</thumbnail>
+    <fantart></fantart>
+</dir>
+
+<dir>
+    <title>[COLOR lightsteelblue]• [/COLOR][COLORlightgrey]BBC Three[/COLOR]</title>
+    <tmdb>network/shows/3</tmdb>
+    <thumbnail>special://home/addons/plugin.video.vod/xml/images/icon.png</thumbnail>
+    <fantart></fantart>
+</dir>
+
+<dir>
+    <title>[COLOR lightsteelblue]• [/COLOR][COLORlightgrey]BBC Four[/COLOR]</title>
+    <tmdb>network/shows/100</tmdb>
+    <thumbnail>special://home/addons/plugin.video.vod/xml/images/icon.png</thumbnail>
+    <fantart></fantart>
+</dir>
+
+<dir>
+    <title>[COLOR lightsteelblue]• [/COLOR][COLORlightgrey]Biography[/COLOR]</title>
+    <tmdb>network/shows/423</tmdb>
+    <thumbnail>special://home/addons/plugin.video.vod/xml/images/icon.png</thumbnail>
+    <fantart></fantart>
+</dir>
+
+<dir>
+    <title>[COLOR lightsteelblue]• [/COLOR][COLORlightgrey]Bravo[/COLOR]</title>
+    <tmdb>network/shows/74</tmdb>
+    <thumbnail>special://home/addons/plugin.video.vod/xml/images/icon.png</thumbnail>
+    <fantart></fantart>
+</dir>
+
+<dir>
+    <title>[COLOR lightsteelblue]• [/COLOR][COLORlightgrey]Cartoon Network[/COLOR]</title>
+    <tmdb>network/shows/56</tmdb>
+    <thumbnail>special://home/addons/plugin.video.vod/xml/images/icon.png</thumbnail>
+    <fantart></fantart>
+</dir>
+
+<dir>
+    <title>[COLOR lightsteelblue]• [/COLOR][COLORlightgrey]CBC[/COLOR]</title>
+    <tmdb>network/shows/23</tmdb>
+    <thumbnail>special://home/addons/plugin.video.vod/xml/images/icon.png</thumbnail>
+    <fantart></fantart>
+</dir>
+
+<dir>
+    <title>[COLOR lightsteelblue]• [/COLOR][COLORlightgrey]CBS[/COLOR]</title>
+    <tmdb>network/shows/16</tmdb>
+    <thumbnail>special://home/addons/plugin.video.vod/xml/images/icon.png</thumbnail>
+    <fantart></fantart>
+</dir>
+
+<dir>
+    <title>[COLOR lightsteelblue]• [/COLOR][COLORlightgrey]Channel 4[/COLOR]</title>
+    <tmdb>network/shows/26</tmdb>
+    <thumbnail>special://home/addons/plugin.video.vod/xml/images/icon.png</thumbnail>
+    <fantart></fantart>
+</dir>
+
+<dir>
+    <title>[COLOR lightsteelblue]• [/COLOR][COLORlightgrey]Channel 5[/COLOR]</title>
+    <tmdb>network/shows/99</tmdb>
+    <thumbnail>special://home/addons/plugin.video.vod/xml/images/icon.png</thumbnail>
+    <fantart></fantart>
+</dir>
+
+<dir>
+    <title>[COLOR lightsteelblue]• [/COLOR][COLORlightgrey]Cinemax[/COLOR]</title>
+    <tmdb>network/shows/359</tmdb>
+    <thumbnail>special://home/addons/plugin.video.vod/xml/images/icon.png</thumbnail>
+    <fantart></fantart>
+</dir>
+
+<dir>
+    <title>[COLOR lightsteelblue]• [/COLOR][COLORlightgrey]City TV[/COLOR]</title>
+    <tmdb>network/shows/92</tmdb>
+    <thumbnail>special://home/addons/plugin.video.vod/xml/images/icon.png</thumbnail>
+    <fantart></fantart>
+</dir>
+
+<dir>
+    <title>[COLOR lightsteelblue]• [/COLOR][COLORlightgrey]CMT[/COLOR]</title>
+    <tmdb>network/shows/85</tmdb>
+    <thumbnail>special://home/addons/plugin.video.vod/xml/images/icon.png</thumbnail>
+    <fantart></fantart>
+</dir>
+
+<dir>
+    <title>[COLOR lightsteelblue]• [/COLOR][COLORlightgrey]CNBC[/COLOR]</title>
+    <tmdb>network/shows/175</tmdb>
+    <thumbnail>special://home/addons/plugin.video.vod/xml/images/icon.png</thumbnail>
+    <fantart></fantart>
+</dir>
+
+<dir>
+    <title>[COLOR lightsteelblue]• [/COLOR][COLORlightgrey]CNN[/COLOR]</title>
+    <tmdb>network/shows/59</tmdb>
+    <thumbnail>special://home/addons/plugin.video.vod/xml/images/icon.png</thumbnail>
+    <fantart></fantart>
+</dir>
+
+<dir>
+    <title>[COLOR lightsteelblue]• [/COLOR][COLORlightgrey]Comedy Central[/COLOR]</title>
+    <tmdb>network/shows/47</tmdb>
+    <thumbnail>special://home/addons/plugin.video.vod/xml/images/icon.png</thumbnail>
+    <fantart></fantart>
+</dir>
+
+<dir>
+    <title>[COLOR lightsteelblue]• [/COLOR][COLORlightgrey]CTV[/COLOR]</title>
+    <tmdb>network/shows/110</tmdb>
+    <thumbnail>special://home/addons/plugin.video.vod/xml/images/icon.png</thumbnail>
+    <fantart></fantart>
+</dir>
+
+<dir>
+    <title>[COLOR lightsteelblue]• [/COLOR][COLORlightgrey]The CW[/COLOR]</title>
+    <tmdb>network/shows/71</tmdb>
+    <thumbnail>special://home/addons/plugin.video.vod/xml/images/icon.png</thumbnail>
+    <fantart></fantart>
+</dir>
+
+<dir>
+    <title>[COLOR lightsteelblue]• [/COLOR][COLORlightgrey]DIY Network[/COLOR]</title>
+    <tmdb>network/shows/625</tmdb>
+    <thumbnail>special://home/addons/plugin.video.vod/xml/images/icon.png</thumbnail>
+    <fantart></fantart>
+</dir>
+
+<dir>
+    <title>[COLOR lightsteelblue]• [/COLOR][COLORlightgrey]Destination America[/COLOR]</title>
+    <tmdb>network/shows/530</tmdb>
+    <thumbnail>special://home/addons/plugin.video.vod/xml/images/icon.png</thumbnail>
+    <fantart></fantart>
+</dir>
+
+<dir>
+    <title>[COLOR lightsteelblue]• [/COLOR][COLORlightgrey]Discovery[/COLOR]</title>
+    <tmdb>network/shows/64</tmdb>
+    <thumbnail>special://home/addons/plugin.video.vod/xml/images/icon.png</thumbnail>
+    <fantart></fantart>
+</dir>
+
+<dir>
+    <title>[COLOR lightsteelblue]• [/COLOR][COLORlightgrey]Discovery Health[/COLOR]</title>
+    <tmdb>network/shows/10</tmdb>
+    <thumbnail>special://home/addons/plugin.video.vod/xml/images/icon.png</thumbnail>
+    <fantart></fantart>
+</dir>
+
+<dir>
+    <title>[COLOR lightsteelblue]• [/COLOR][COLORlightgrey]Discovery Kids[/COLOR]</title>
+    <tmdb>network/shows/22</tmdb>
+    <thumbnail>special://home/addons/plugin.video.vod/xml/images/icon.png</thumbnail>
+    <fantart></fantart>
+</dir>
+
+<dir>
+    <title>[COLOR lightsteelblue]• [/COLOR][COLORlightgrey]Disney Channel[/COLOR]</title>
+    <tmdb>network/shows/54</tmdb>
+    <thumbnail>special://home/addons/plugin.video.vod/xml/images/icon.png</thumbnail>
+    <fantart></fantart>
+</dir>
+
+<dir>
+    <title>[COLOR lightsteelblue]• [/COLOR][COLORlightgrey]Disney XD[/COLOR]</title>
+    <tmdb>network/shows/44</tmdb>
+    <thumbnail>special://home/addons/plugin.video.vod/xml/images/icon.png</thumbnail>
+    <fantart></fantart>
+</dir>
+
+<dir>
+    <title>[COLOR lightsteelblue]• [/COLOR][COLORlightgrey]E![/COLOR]</title>
+    <tmdb>network/shows/76</tmdb>
+    <thumbnail>special://home/addons/plugin.video.vod/xml/images/icon.png</thumbnail>
+    <fantart></fantart>
+</dir>
+
+<dir>
+    <title>[COLOR lightsteelblue]• [/COLOR][COLORlightgrey]E4[/COLOR]</title>
+    <tmdb>network/shows/136</tmdb>
+    <thumbnail>special://home/addons/plugin.video.vod/xml/images/icon.png</thumbnail>
+    <fantart></fantart>
+</dir>
+
+<dir>
+    <title>[COLOR lightsteelblue]• [/COLOR][COLORlightgrey]Food Network[/COLOR]</title>
+    <tmdb>network/shows/143</tmdb>
+    <thumbnail>special://home/addons/plugin.video.vod/xml/images/icon.png</thumbnail>
+    <fantart></fantart>
+</dir>
+
+<dir>
+    <title>[COLOR lightsteelblue]• [/COLOR][COLORlightgrey]Fox[/COLOR]</title>
+    <tmdb>network/shows/19</tmdb>
+    <thumbnail>special://home/addons/plugin.video.vod/xml/images/icon.png</thumbnail>
+    <fantart></fantart>
+</dir>
+
+<dir>
+    <title>[COLOR lightsteelblue]• [/COLOR][COLORlightgrey]Fuji TV[/COLOR]</title>
+    <tmdb>network/shows/1</tmdb>
+    <thumbnail>special://home/addons/plugin.video.vod/xml/images/icon.png</thumbnail>
+    <fantart></fantart>
+</dir>
+
+<dir>
+    <title>[COLOR lightsteelblue]• [/COLOR][COLORlightgrey]Funimation[/COLOR]</title>
+    <tmdb>network/shows/728</tmdb>
+    <thumbnail>special://home/addons/plugin.video.vod/xml/images/icon.png</thumbnail>
+    <fantart></fantart>
+</dir>
+
+<dir>
+    <title>[COLOR lightsteelblue]• [/COLOR][COLORlightgrey]FX[/COLOR]</title>
+    <tmdb>network/shows/88</tmdb>
+    <thumbnail>special://home/addons/plugin.video.vod/xml/images/icon.png</thumbnail>
+    <fantart></fantart>
+</dir>
+
+<dir>
+    <title>[COLOR lightsteelblue]• [/COLOR][COLORlightgrey]FYI[/COLOR]</title>
+    <tmdb>network/shows/1080</tmdb>
+    <thumbnail>special://home/addons/plugin.video.vod/xml/images/icon.png</thumbnail>
+    <fantart></fantart>
+</dir>
+
+<dir>
+    <title>[COLOR lightsteelblue]• [/COLOR][COLORlightgrey]Hallmark[/COLOR]</title>
+    <tmdb>network/shows/384</tmdb>
+    <thumbnail>special://home/addons/plugin.video.vod/xml/images/icon.png</thumbnail>
+    <fantart></fantart>
+</dir>
+
+<dir>
+    <title>[COLOR lightsteelblue]• [/COLOR][COLORlightgrey]HBO[/COLOR]</title>
+    <tmdb>network/shows/49</tmdb>
+    <thumbnail>special://home/addons/plugin.video.vod/xml/images/icon.png</thumbnail>
+    <fantart></fantart>
+</dir>
+
+<dir>
+    <title>[COLOR lightsteelblue]• [/COLOR][COLORlightgrey]HGTV[/COLOR]</title>
+    <tmdb>network/shows/210</tmdb>
+    <thumbnail>special://home/addons/plugin.video.vod/xml/images/icon.png</thumbnail>
+    <fantart></fantart>
+</dir>
+
+<dir>
+    <title>[COLOR lightsteelblue]• [/COLOR][COLORlightgrey]History[/COLOR]</title>
+    <tmdb>network/shows/65</tmdb>
+    <thumbnail>special://home/addons/plugin.video.vod/xml/images/icon.png</thumbnail>
+    <fantart></fantart>
+</dir>
+
+<dir>
+    <title>[COLOR lightsteelblue]• [/COLOR][COLORlightgrey]Hulu[/COLOR]</title>
+    <tmdb>network/shows/453</tmdb>
+    <thumbnail>special://home/addons/plugin.video.vod/xml/images/icon.png</thumbnail>
+    <fantart></fantart>
+</dir>
+
+<dir>
+    <title>[COLOR lightsteelblue]• [/COLOR][COLORlightgrey]Investigation Discovery[/COLOR]</title>
+    <tmdb>network/shows/244</tmdb>
+    <thumbnail>special://home/addons/plugin.video.vod/xml/images/icon.png</thumbnail>
+    <fantart></fantart>
+</dir>
+
+<dir>
+    <title>[COLOR lightsteelblue]• [/COLOR][COLORlightgrey]ITV[/COLOR]</title>
+    <tmdb>network/shows/9</tmdb>
+    <thumbnail>special://home/addons/plugin.video.vod/xml/images/icon.png</thumbnail>
+    <fantart></fantart>
+</dir>
+
+<dir>
+    <title>[COLOR lightsteelblue]• [/COLOR][COLORlightgrey]The Lifestyle Channel[/COLOR]</title>
+    <tmdb>network/shows/683</tmdb>
+    <thumbnail>special://home/addons/plugin.video.vod/xml/images/icon.png</thumbnail>
+    <fantart></fantart>
+</dir>
+
+<dir>
+    <title>[COLOR lightsteelblue]• [/COLOR][COLORlightgrey]Lifetime[/COLOR]</title>
+    <tmdb>network/shows/34</tmdb>
+    <thumbnail>special://home/addons/plugin.video.vod/xml/images/icon.png</thumbnail>
+    <fantart></fantart>
+</dir>
+
+<dir>
+    <title>[COLOR lightsteelblue]• [/COLOR][COLORlightgrey]The Movie Network[/COLOR]</title>
+    <tmdb>network/shows/245</tmdb>
+    <thumbnail>special://home/addons/plugin.video.vod/xml/images/icon.png</thumbnail>
+    <fantart></fantart>
+</dir>
+
+<dir>
+    <title>[COLOR lightsteelblue]• [/COLOR][COLORlightgrey]MSNBC[/COLOR]</title>
+    <tmdb>network/shows/37</tmdb>
+    <thumbnail>special://home/addons/plugin.video.vod/xml/images/icon.png</thumbnail>
+    <fantart></fantart>
+</dir>
+
+<dir>
+    <title>[COLOR lightsteelblue]• [/COLOR][COLORlightgrey]MTV[/COLOR]</title>
+    <tmdb>network/shows/33</tmdb>
+    <thumbnail>special://home/addons/plugin.video.vod/xml/images/icon.png</thumbnail>
+    <fantart></fantart>
+</dir>
+
+<dir>
+    <title>[COLOR lightsteelblue]• [/COLOR][COLORlightgrey]Nat Geo Wild[/COLOR]</title>
+    <tmdb>network/shows/1043</tmdb>
+    <thumbnail>special://home/addons/plugin.video.vod/xml/images/icon.png</thumbnail>
+    <fantart></fantart>
+</dir>
+
+<dir>
+    <title>[COLOR lightsteelblue]• [/COLOR][COLORlightgrey]National Geographic Channel[/COLOR]</title>
+    <tmdb>network/shows/43</tmdb>
+    <thumbnail>special://home/addons/plugin.video.vod/xml/images/icon.png</thumbnail>
+    <fantart></fantart>
+</dir>
+
+<dir>
+    <title>[COLOR lightsteelblue]• [/COLOR][COLORlightgrey]NBC[/COLOR]</title>
+    <tmdb>network/shows/6</tmdb>
+    <thumbnail>special://home/addons/plugin.video.vod/xml/images/icon.png</thumbnail>
+    <fantart></fantart>
+</dir>
+
+<dir>
+    <title>[COLOR lightsteelblue]• [/COLOR][COLORlightgrey]Netflix[/COLOR]</title>
+    <tmdb>network/shows/213</tmdb>
+    <thumbnail>special://home/addons/plugin.video.vod/xml/images/icon.png</thumbnail>
+    <fantart></fantart>
+</dir>
+
+<dir>
+    <title>[COLOR lightsteelblue]• [/COLOR][COLORlightgrey]Network Ten[/COLOR]</title>
+    <tmdb>network/shows/38</tmdb>
+    <thumbnail>special://home/addons/plugin.video.vod/xml/images/icon.png</thumbnail>
+    <fantart></fantart>
+</dir>
+
+<dir>
+    <title>[COLOR lightsteelblue]• [/COLOR][COLORlightgrey]Nickelodeon[/COLOR]</title>
+    <tmdb>network/shows/13</tmdb>
+    <thumbnail>special://home/addons/plugin.video.vod/xml/images/icon.png</thumbnail>
+    <fantart></fantart>
+</dir>
+
+<dir>
+    <title>[COLOR lightsteelblue]• [/COLOR][COLORlightgrey]Nick Jr[/COLOR]</title>
+    <tmdb>network/shows/35</tmdb>
+    <thumbnail>special://home/addons/plugin.video.vod/xml/images/icon.png</thumbnail>
+    <fantart></fantart>
+</dir>
+
+<dir>
+    <title>[COLOR lightsteelblue]• [/COLOR][COLORlightgrey]NickToons[/COLOR]</title>
+    <tmdb>network/shows/224</tmdb>
+    <thumbnail>special://home/addons/plugin.video.vod/xml/images/icon.png</thumbnail>
+    <fantart></fantart>
+</dir>
+
+<dir>
+    <title>[COLOR lightsteelblue]• [/COLOR][COLORlightgrey]Oxygen[/COLOR]</title>
+    <tmdb>network/shows/132</tmdb>
+    <thumbnail>special://home/addons/plugin.video.vod/xml/images/icon.png</thumbnail>
+    <fantart></fantart>
+</dir>
+
+<dir>
+    <title>[COLOR lightsteelblue]• [/COLOR][COLORlightgrey]PBS[/COLOR]</title>
+    <tmdb>network/shows/14</tmdb>
+    <thumbnail>special://home/addons/plugin.video.vod/xml/images/icon.png</thumbnail>
+    <fantart></fantart>
+</dir>
+
+<dir>
+    <title>[COLOR lightsteelblue]• [/COLOR][COLORlightgrey]Showcase[/COLOR]</title>
+    <tmdb>network/shows/105</tmdb>
+    <thumbnail>special://home/addons/plugin.video.vod/xml/images/icon.png</thumbnail>
+    <fantart></fantart>
+</dir>
+
+<dir>
+    <title>[COLOR lightsteelblue]• [/COLOR][COLORlightgrey]Showtime[/COLOR]</title>
+    <tmdb>network/shows/67</tmdb>
+    <thumbnail>special://home/addons/plugin.video.vod/xml/images/icon.png</thumbnail>
+    <fantart></fantart>
+</dir>
+
+<dir>
+    <title>[COLOR lightsteelblue]• [/COLOR][COLORlightgrey]Space[/COLOR]</title>
+    <tmdb>network/shows/170</tmdb>
+    <thumbnail>special://home/addons/plugin.video.vod/xml/images/icon.png</thumbnail>
+    <fantart></fantart>
+</dir>
+
+<dir>
+    <title>[COLOR lightsteelblue]• [/COLOR][COLORlightgrey]Spike[/COLOR]</title>
+    <tmdb>network/shows/55</tmdb>
+    <thumbnail>special://home/addons/plugin.video.vod/xml/images/icon.png</thumbnail>
+    <fantart></fantart>
+</dir>
+
+<dir>
+    <title>[COLOR lightsteelblue]• [/COLOR][COLORlightgrey]Starz[/COLOR]</title>
+    <tmdb>network/shows/318</tmdb>
+    <thumbnail>special://home/addons/plugin.video.vod/xml/images/icon.png</thumbnail>
+    <fantart></fantart>
+</dir>
+
+<dir>
+    <title>[COLOR lightsteelblue]• [/COLOR][COLORlightgrey]SyFy[/COLOR]</title>
+    <tmdb>network/shows/77</tmdb>
+    <thumbnail>special://home/addons/plugin.video.vod/xml/images/icon.png</thumbnail>
+    <fantart></fantart>
+</dir>
+
+<dir>
+    <title>[COLOR lightsteelblue]• [/COLOR][COLORlightgrey]TBS[/COLOR]</title>
+    <tmdb>network/shows/68</tmdb>
+    <thumbnail>special://home/addons/plugin.video.vod/xml/images/icon.png</thumbnail>
+    <fantart></fantart>
+</dir>
+
+<dir>
+    <title>[COLOR lightsteelblue]• [/COLOR][COLORlightgrey]Teletoon[/COLOR]</title>
+    <tmdb>network/shows/83</tmdb>
+    <thumbnail>special://home/addons/plugin.video.vod/xml/images/icon.png</thumbnail>
+    <fantart></fantart>
+</dir>
+
+<dir>
+    <title>[COLOR lightsteelblue]• [/COLOR][COLORlightgrey]TLC[/COLOR]</title>
+    <tmdb>network/shows/84</tmdb>
+    <thumbnail>special://home/addons/plugin.video.vod/xml/images/icon.png</thumbnail>
+    <fantart></fantart>
+</dir>
+
+<dir>
+    <title>[COLOR lightsteelblue]• [/COLOR][COLORlightgrey]TNT[/COLOR]</title>
+    <tmdb>network/shows/41</tmdb>
+    <thumbnail>special://home/addons/plugin.video.vod/xml/images/icon.png</thumbnail>
+    <fantart></fantart>
+</dir>
+
+<dir>
+    <title>[COLOR lightsteelblue]• [/COLOR][COLORlightgrey]Travel Channel[/COLOR]</title>
+    <tmdb>network/shows/209</tmdb>
+    <thumbnail>special://home/addons/plugin.video.vod/xml/images/icon.png</thumbnail>
+    <fantart></fantart>
+</dir>
+
+<dir>
+    <title>[COLOR lightsteelblue]• [/COLOR][COLORlightgrey]TV Land[/COLOR]</title>
+    <tmdb>network/shows/397</tmdb>
+    <thumbnail>special://home/addons/plugin.video.vod/xml/images/icon.png</thumbnail>
+    <fantart></fantart>
+</dir>
+
+<dir>
+    <title>[COLOR lightsteelblue]• [/COLOR][COLORlightgrey]UPN[/COLOR]</title>
+    <tmdb>network/shows/40</tmdb>
+    <thumbnail>special://home/addons/plugin.video.vod/xml/images/icon.png</thumbnail>
+    <fantart></fantart>
+</dir>
+
+<dir>
+    <title>[COLOR lightsteelblue]• [/COLOR][COLORlightgrey]USA[/COLOR]</title>
+    <tmdb>network/shows/30</tmdb>
+    <thumbnail>special://home/addons/plugin.video.vod/xml/images/icon.png</thumbnail>
+    <fantart></fantart>
+</dir>
+
+<dir>
+    <title>[COLOR lightsteelblue]• [/COLOR][COLORlightgrey]VH1[/COLOR]</title>
+    <tmdb>network/shows/158</tmdb>
+    <thumbnail>special://home/addons/plugin.video.vod/xml/images/icon.png</thumbnail>
+    <fantart></fantart>
+</dir>
+
+<dir>
+    <title>[COLOR lightsteelblue]• [/COLOR][COLORlightgrey]Velocity[/COLOR]</title>
+    <tmdb>network/shows/435</tmdb>
+    <thumbnail>special://home/addons/plugin.video.vod/xml/images/icon.png</thumbnail>
+    <fantart></fantart>
+</dir>
+
+<dir>
+    <title>[COLOR lightsteelblue]• [/COLOR][COLORlightgrey]The WB[/COLOR]</title>
+    <tmdb>network/shows/21</tmdb>
+    <thumbnail>special://home/addons/plugin.video.vod/xml/images/icon.png</thumbnail>
+    <fantart></fantart>
+</dir>
+
+<dir>
+    <title>[COLOR lightsteelblue]• [/COLOR][COLORlightgrey]YTV[/COLOR]</title>
+    <tmdb>network/shows/46</tmdb>
+    <thumbnail>special://home/addons/plugin.video.vod/xml/images/icon.png</thumbnail>
+    <fantart></fantart>
+</dir>

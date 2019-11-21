@@ -1,0 +1,121 @@
+<dir>
+<title>**1-Click Movies By Year**</title>
+<link>https://magnetic.website/Mad%20Titan/movies%20by%20year.xml</link>
+<thumbnail>https://magnetic.website/Mad%20Titan/mad%20titan%20icons/mad%20titan%20icons.png</thumbnail>
+<fanart>https://magnetic.website/Mad%20Titan/mad%20titan%20icons/splash.png</fanart>
+<summary>1-Click Movies By Year</summary>
+</dir>
+
+
+
+<dir>
+<title>**Titan 1-Click Boxsets**</title>
+<link>http://magnetic.website/Mad%20Titan/Boxsets.xml</link>
+<thumbnail>https://magnetic.website/Mad%20Titan/mad%20titan%20icons/mad%20titan%20icons.png</thumbnail>
+<summary>Boxsets</summary>
+</dir>
+
+<dir>
+<title>**Titan 24/7 Movies**</title>
+<arconaitv2>movies</arconaitv2>
+<thumbnail>https://magnetic.website/Mad%20Titan/mad%20titan%20icons/mad%20titan%20icons.png</thumbnail>
+</dir>
+
+
+<dir>
+<title>**Stand-Up Comedy**</title>
+<link>http://magnetic.website/Mad%20Titan/STAND-UP%20COMEDY.xml</link>
+<thumbnail>https://magnetic.website/Mad%20Titan/mad%20titan%20icons/mad%20titan%20icons.png</thumbnail>
+<summary></summary>
+</dir>
+
+
+<dir>
+<title>**Titan 4K Movies ( REAL DEBRID SUBCRIBERS ONLY)**</title>
+<link>http://magnetic.website/Mad%20Titan/titan%204k%20movies.xml</link>
+<thumbnail>https://magnetic.website/Mad%20Titan/mad%20titan%20icons/mad%20titan%20icons.png</thumbnail>
+<summary>PLEASE NOTE IN ORDER TO USE 4K YOU NEED REAL DEBRID SERVICE</summary>
+</dir>
+
+
+<dir>
+<title>**Titan Production Companies**</title>
+<link>http://magnetic.website/Mad%20Titan/production.xml</link>
+<thumbnail>https://magnetic.website/Mad%20Titan/mad%20titan%20icons/mad%20titan%20icons.png</thumbnail>
+<summary></summary>
+</dir>
+
+
+
+
+<dir>
+  <title>**Trending Movies**</title>
+  <trakt>https://api.trakt.tv/movies/trending</trakt>
+<thumbnail>https://magnetic.website/Mad%20Titan/mad%20titan%20icons/mad%20titan%20icons.png</thumbnail>
+</dir>
+
+
+<dir>
+<title>**Titan Popular Movies**</title>
+<tmdb>movies/popular</tmdb>
+<thumbnail>http://magnetic.website/Mad%20Titan/icon.png</thumbnail>
+ </dir>
+
+<dir>
+  <title>**On The Big Screen**</title>
+  <tmdb>movies/now_playing</tmdb>
+<thumbnail>https://magnetic.website/Mad%20Titan/mad%20titan%20icons/mad%20titan%20icons.png</thumbnail>
+</dir>
+
+<dir>
+  <title>**Box Office**</title>
+  <trakt>https://api.trakt.tv/movies/boxoffice</trakt>
+<thumbnail>https://magnetic.website/Mad%20Titan/mad%20titan%20icons/mad%20titan%20icons.png</thumbnail>
+</dir>
+
+ <dir>
+ <title>**Marvel Movies**</title>
+ <tmdb>list/84740</tmdb>
+<thumbnail>https://magnetic.website/Mad%20Titan/mad%20titan%20icons/mad%20titan%20icons.png</thumbnail>
+ </dir>
+ 
+  <dir>
+ <title>**DC-Movies**</title>
+ <tmdb>list/64421</tmdb>
+<thumbnail>https://magnetic.website/Mad%20Titan/mad%20titan%20icons/mad%20titan%20icons.png</thumbnail>
+ </dir>
+
+ 
+ <dir>
+ <title>**Friendly Faces**</title>
+ <tmdb>people/popular</tmdb>
+<thumbnail>https://magnetic.website/Mad%20Titan/mad%20titan%20icons/mad%20titan%20icons.png</thumbnail>
+ </dir>
+ 
+   <dir>
+    <title>**Genres**</title>
+    <link>http://magnetic.website/Mad%20Titan/movies%20genre.xml</link>
+<thumbnail>https://magnetic.website/Mad%20Titan/mad%20titan%20icons/mad%20titan%20icons.png</thumbnail>
+  </dir>
+
+
+<dir>
+  <title>**Movie Watchlist ( activate with your trakt )**</title>
+  <trakt>https://api.trakt.tv/sync/watchlist/movies</trakt>
+<thumbnail>https://magnetic.website/Mad%20Titan/mad%20titan%20icons/mad%20titan%20icons.png</thumbnail>
+</dir>
+
+<dir>
+  <title>**Movie Collection (activate with your trakt )**</title>
+  <trakt>https://api.trakt.tv/sync/collection/movies</trakt>
+<thumbnail>https://magnetic.website/Mad%20Titan/mad%20titan%20icons/mad%20titan%20icons.png</thumbnail>
+</dir>
+
+  <dir>
+    <title>**Search**</title>
+    <tmdb>search</tmdb>
+<thumbnail>https://magnetic.website/Mad%20Titan/mad%20titan%20icons/mad%20titan%20icons.png</thumbnail>
+  </dir>
+
+
+

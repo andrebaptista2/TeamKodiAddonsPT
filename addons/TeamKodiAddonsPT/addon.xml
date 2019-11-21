@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="TeamKodiAddonsPT" name="Repositorio Team Milhano" version="2.00" provider-name="Team Milhano">
+<addon id="TeamKodiAddonsPT" name="Repositorio Team Milhano" version="21.11.2019" provider-name="Team Milhano">
 <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.beautifulsoup" version="3.2.1"/>

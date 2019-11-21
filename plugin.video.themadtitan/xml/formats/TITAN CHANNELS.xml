@@ -1,0 +1,76 @@
+
+
+
+
+<plugin>
+<title>AMC</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=http://185.246.209.220/amc_hd/tracks-v1a1/mono.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36</link>
+</link>
+<thumbnail>https://images-na.ssl-images-amazon.com/images/I/31OE5NRo7VL.png</thumbnail>
+</plugin>
+
+<item>
+<title>HBO</title>
+<link>http://w2.11223344.host/live/hb0/chunks.m3u8|Referer=http://123tvnow.com/watch/hbo/</link>
+<thumbnail>https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/0d920358-1c79-4669-b107-2b22e0dd7dcd/d8rklyc-e85e5e0c-2fe0-4523-8b0d-21b3a1fb3540.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzBkOTIwMzU4LTFjNzktNDY2OS1iMTA3LTJiMjJlMGRkN2RjZFwvZDhya2x5Yy1lODVlNWUwYy0yZmUwLTQ1MjMtOGIwZC0yMWIzYTFmYjM1NDAucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.aC3-gmOF7QggmWuxsPFOyrM-cDnejMJ8yp0ZrwXeWZs</thumbnail>
+</item>
+
+
+<plugin>
+<title>BET</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=http://yrsprts.xyz/espn.php?ch=bet&.m3u8Referer=http://yoursports.stream/ing/play?s=YmV0|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36</link>
+</link>
+<thumbnail>https://images-na.ssl-images-amazon.com/images/I/51Ifpl3dsnL.png</thumbnail>
+<fanart></fanart>
+</plugin>
+
+<plugin>
+<title>MTV</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=http://yrsprts.xyz/espn.php?ch=mtv&.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36</link>
+</link>
+<thumbnail>http://plextips.com/wp-content/uploads/2016/07/mtv-music-videos-1.jpg</thumbnail>
+<fanart></fanart>
+</plugin>
+
+
+
+
+<item>
+<title>Cartoon Network </title>
+<link>http://185.246.209.220/cartoonnetwork_hd/tracks-v1a1/mono.m3u8</link>
+<thumbnail>https://iwf1.com/scrapekod/icons/plugin.video.cartoon_network.jpg</thumbnail>
+<fanart></fanart>
+</item>
+
+<item>
+<title>Nick Jr</title>
+<link>http://185.246.209.220/nickjr_hd/tracks-v1a1/mono.m3u8</link>
+<thumbnail>https://images-na.ssl-images-amazon.com/images/I/41DAgNJEGkL.png</thumbnail>
+</item>
+
+
+<item>
+<title>Disney Jr</title>
+<link>http://185.246.209.220/disneyjr_hd/tracks-v1a1/mono.m3u8</link>
+<thumbnail>https://lh3.googleusercontent.com/iziYtfo4uW2XMDld157fiR5v0RHrpdve99roYNnW6-aZyup5jH0kCnwWQ4oqY1NVtYaTXL6m8yLdXhOm_w=rw</thumbnail>
+</item>
+
+<item>
+<title>Disney XD</title>
+<link>http://185.246.209.220/disneyxd_hd/tracks-v1a1/mono.m3u8</link>
+<thumbnail>https://is3-ssl.mzstatic.com/image/thumb/Purple117/v4/85/45/07/85450731-0a68-98ae-60c7-46459afa208b/source/512x512bb.jpg</thumbnail>
+</item>
+
+<item>
+<title>Universal Kids</title>
+<link>http://185.246.209.220/universalkids_hd/tracks-v1a1/mono.m3u8</link>
+<thumbnail>https://archive.is/Gn1Bb/9b16caec3963093a0ccb424de1ff23493673f2f1.png</thumbnail>
+</item>
+
+
+
+<item>
+<title>Boomerang</title>
+<link>http://185.246.209.220/boomerang_hd/tracks-v1a1/mono.m3u8</link>
+<thumbnail>https://is5-ssl.mzstatic.com/image/thumb/Purple71/v4/aa/e9/24/aae9249a-6450-adf6-260c-120c8aca72de/source/512x512bb.jpg</thumbnail>
+</item>

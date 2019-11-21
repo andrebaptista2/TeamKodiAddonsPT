@@ -1,0 +1,79 @@
+<dir>
+<title>**Titan Popular Shows**</title>
+<tmdb>tv/popular</tmdb>
+<thumbnail>https://magnetic.website/Mad%20Titan/mad%20titan%20icons/tv%20shows.png</thumbnail>
+</dir>
+
+
+
+<dir>
+<title>**Titan 1-Click Shows**</title>
+<link>http://magnetic.website/Mad%20Titan/1-Click%20Tv%20Shows.xml</link>
+<thumbnail>https://magnetic.website/Mad%20Titan/mad%20titan%20icons/tv%20shows.png</thumbnail>
+</dir>
+
+<dir>
+<title>**Titan 24/7 Tv Shows**</title>
+<arconaitv2>shows</arconaitv2>
+<thumbnail>https://magnetic.website/Mad%20Titan/mad%20titan%20icons/tv%20shows.png</thumbnail>
+</dir>
+
+
+
+	
+<dir>
+<title>**Titan Top Rated**</title>
+<tmdb>tv/top_rated</tmdb>
+<thumbnail>https://magnetic.website/Mad%20Titan/mad%20titan%20icons/tv%20shows.png</thumbnail>
+</dir>
+
+<dir>
+<title>**Marvel Vs DC Tv Shows**</title>
+<tmdb>list/97187</tmdb>
+<thumbnail>https://magnetic.website/Mad%20Titan/mad%20titan%20icons/tv%20shows.png</thumbnail>
+</dir>
+
+
+<dir>
+<title>**What's on Today**</title>
+<tmdb>tv/today</tmdb>
+<thumbnail>https://magnetic.website/Mad%20Titan/mad%20titan%20icons/tv%20shows.png</thumbnail>
+</dir>
+
+<dir>
+<title>**What's Trending**</title>
+<trakt>https://api.trakt.tv/shows/trending</trakt>
+<thumbnail>https://magnetic.website/Mad%20Titan/mad%20titan%20icons/tv%20shows.png</thumbnail>
+</dir>
+
+<dir>
+<title>**Titan Anticipated Shows**</title>
+<trakt>https://api.trakt.tv/shows/anticipated</trakt>
+<thumbnail>https://magnetic.website/Mad%20Titan/mad%20titan%20icons/tv%20shows.png</thumbnail>
+ </dir>
+ 
+
+<dir>
+<title>**Networks**</title>
+<link>http://magnetic.website/Mad%20Titan/networks%20.xml</link>
+<thumbnail>https://magnetic.website/Mad%20Titan/mad%20titan%20icons/tv%20shows.png</thumbnail>
+</dir>
+
+<dir>
+  <title>**Genre**</title>
+  <link>file://shared lists/genre_tv.xml</link>
+<thumbnail>https://magnetic.website/Mad%20Titan/mad%20titan%20icons/tv%20shows.png</thumbnail>
+</dir>
+
+ <dir>
+ <title>**TV Watchlist ( Please Log into your Trakt )**</title>
+ <trakt>https://api.trakt.tv/sync/watchlist/shows</trakt>
+<thumbnail>https://magnetic.website/Mad%20Titan/mad%20titan%20icons/tv%20shows.png</thumbnail>
+ </dir>
+
+<dir>
+<title>**Search**</title>
+<tmdb>search</tmdb>
+<thumbnail>https://magnetic.website/Mad%20Titan/mad%20titan%20icons/tv%20shows.png</thumbnail>
+ </dir>
+

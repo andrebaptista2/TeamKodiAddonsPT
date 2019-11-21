@@ -1,0 +1,2 @@
+﻿[COLOR yellow][B]v1.2.9[/B]
+ - Vision of Destiny is a template based on 1.2.9 Destiny Addon.

@@ -1,0 +1,90 @@
+<dir>
+    <title>[COLOR lightsteelblue]• [/COLOR][COLORlightgrey]Action & Adventure[/COLOR]</title>
+    <tmdb>genre/shows/10759</tmdb>
+	<thumbnail>special://home/addons/plugin.video.vod/xml/images/icon.png</thumbnail>
+</dir>
+
+<dir>
+    <title>[COLOR lightsteelblue]• [/COLOR][COLORlightgrey]Animation[/COLOR]</title>
+    <tmdb>genre/shows/16</tmdb>
+	<thumbnail>special://home/addons/plugin.video.vod/xml/images/icon.png</thumbnail>
+</dir>
+
+<dir>
+    <title>[COLOR lightsteelblue]• [/COLOR][COLORlightgrey]Comedy[/COLOR]</title>
+    <tmdb>genre/shows/35</tmdb>
+	<thumbnail>special://home/addons/plugin.video.vod/xml/images/icon.png</thumbnail>
+</dir>
+
+<dir>
+    <title>[COLOR lightsteelblue]• [/COLOR][COLORlightgrey]Crime[/COLOR]</title>
+    <tmdb>genre/shows/80</tmdb>
+	<thumbnail>special://home/addons/plugin.video.vod/xml/images/icon.png</thumbnail>
+</dir>
+
+<dir>
+    <title>[COLOR lightsteelblue]• [/COLOR][COLORlightgrey]Documentary[/COLOR]</title>
+    <tmdb>genre/shows/99</tmdb>
+	<thumbnail>special://home/addons/plugin.video.vod/xml/images/icon.png</thumbnail>
+</dir>
+
+<dir>
+    <title>[COLOR lightsteelblue]• [/COLOR][COLORlightgrey]Drama[/COLOR]</title>
+    <tmdb>genre/shows/18</tmdb>
+	<thumbnail>special://home/addons/plugin.video.vod/xml/images/icon.png</thumbnail>
+</dir>
+
+<dir>
+    <title>[COLOR lightsteelblue]• [/COLOR][COLORlightgrey]Family[/COLOR]</title>
+    <tmdb>genre/shows/10751</tmdb>
+	<thumbnail>special://home/addons/plugin.video.vod/xml/images/icon.png</thumbnail>
+</dir>
+
+<dir>
+    <title>[COLOR lightsteelblue]• [/COLOR][COLORlightgrey]Kids[/COLOR]</title>
+    <tmdb>genre/shows/10762</tmdb>
+	<thumbnail>special://home/addons/plugin.video.vod/xml/images/icon.png</thumbnail>
+</dir>
+
+<dir>
+    <title>[COLOR lightsteelblue]• [/COLOR][COLORlightgrey]Mystery[/COLOR]</title>
+    <tmdb>genre/shows/9648</tmdb>
+	<thumbnail>special://home/addons/plugin.video.vod/xml/images/icon.png</thumbnail>
+</dir>
+
+<dir>
+    <title>[COLOR lightsteelblue]• [/COLOR][COLORlightgrey]News[/COLOR]</title>
+    <tmdb>genre/shows/10763</tmdb>
+	<thumbnail>special://home/addons/plugin.video.vod/xml/images/icon.png</thumbnail>
+</dir>
+
+<dir>
+    <title>[COLOR lightsteelblue]• [/COLOR][COLORlightgrey]Reality[/COLOR]</title>
+    <tmdb>genre/shows/10764</tmdb>
+	<thumbnail>special://home/addons/plugin.video.vod/xml/images/icon.png</thumbnail>
+</dir>
+
+<dir>
+    <title>[COLOR lightsteelblue]• [/COLOR][COLORlightgrey]Sci-Fi & Fantasy[/COLOR]</title>
+    <tmdb>genre/shows/10765</tmdb>
+	<thumbnail>special://home/addons/plugin.video.vod/xml/images/icon.png</thumbnail>
+</dir>
+
+<dir>
+    <title>[COLOR lightsteelblue]• [/COLOR][COLORlightgrey]Soap[/COLOR]</title>
+    <tmdb>genre/shows/10766</tmdb>
+	<thumbnail>special://home/addons/plugin.video.vod/xml/images/icon.png</thumbnail>
+</dir>
+
+<dir>
+    <title>[COLOR lightsteelblue]• [/COLOR][COLORlightgrey]War & Politics[/COLOR]</title>
+    <tmdb>genre/shows/10768</tmdb>
+	<thumbnail>special://home/addons/plugin.video.vod/xml/images/icon.png</thumbnail>
+</dir>
+
+<dir>
+    <title>[COLOR lightsteelblue]• [/COLOR][COLORlightgrey]Western[/COLOR]</title>
+    <tmdb>genre/shows/37</tmdb>
+	<thumbnail>special://home/addons/plugin.video.vod/xml/images/icon.png</thumbnail>
+</dir>
+

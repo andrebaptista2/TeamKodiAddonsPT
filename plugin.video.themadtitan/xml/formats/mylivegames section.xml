@@ -1,0 +1,39 @@
+<dir>
+<title>NBA Games</title>
+<link>http://magnetic.website/Mad%20Titan/NBA%20LIVE%20GAMES.xml</link>
+<thumbnail>http://magnetic.website/Mad%20Titan/icon.png</thumbnail>
+<summary></summary>
+</dir>
+
+<dir>
+<title>Alliance of American Football (AAF)</title>
+<link>http://magnetic.website/Mad%20Titan/AAF.xml</link>
+<thumbnail>http://magnetic.website/Mad%20Titan/icon.png</thumbnail>
+<summary></summary>
+</dir>
+
+
+<dir>
+<title>UFC/MMA/BOXING</title>
+<link>http://magnetic.website/Mad%20Titan/UFC-MMA-BOXING%20PPV.xml</link>
+<thumbnail>http://magnetic.website/Mad%20Titan/icon.png</thumbnail>
+<summary></summary>
+</dir>
+
+
+<item>
+  <title>[B][COLORyellow]NFL Redzone[/COLOR][/B] COME BACK SOON</title>
+  <link>
+ <sublink>http://cdn4.nbacdn.ga/live/redzone/chunks.m3u8|Referer=http://opioen.live/nfl-redzone-live/&Origin=http://opioen.live</sublink>
+  <sublink>http://proxy.9live.club/vmcache/redzone-540p.m3u8</sublink>
+  <sublink>https://e32.livecamtv.me/zmelive/aUDnlXNfs7R6OeWI2Q3g/chunklist.m3u8%7CReferer=https://www.shassets.pw/sdembed?v=redzonehd~redzone&Origin=https://www.shassets.pw</sublink>
+  </link>
+  <thumbnail>http://magnetic.website/menu%20icons/nfl%20redzone.png</thumbnail>
+</item>
+
+<dir>
+<title>NFL LIVE- COME BACK SOON </title>
+<link>http://magnetic.website/Mad%20Titan/MYNFLGAMES.xml</link>
+<thumbnail>http://magnetic.website/Mad%20Titan/icon.png</thumbnail>
+<summary></summary>
+</dir>

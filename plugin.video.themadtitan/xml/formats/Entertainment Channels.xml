@@ -1,0 +1,26 @@
+<plugin>
+<title>Entertainment</title>
+<m3u>http://magnetic.website/Mad%20Titan/Entertainment.m3u</m3u>
+<fanart></fanart>
+</plugin>
+
+<plugin>
+<title></title>
+<link></link>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</plugin>
+
+<plugin>
+<title></title>
+<link></link>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</plugin>
+
+
+<plugin>
+ <title>[B][COLORgoldenrod]Sports[/COLOR][/B]</title> 
+ <m3u>http://worldkodi.com/GridironLegends/Sports.m3u</m3u>
+ <thumbnail></thumbnail>
+</plugin>

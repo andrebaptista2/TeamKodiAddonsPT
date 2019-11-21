@@ -1,0 +1,172 @@
+<item>
+<title>ESPN News</title>
+<link>http://espn.tmedia.me/cache/espnews.m3u8</link>
+<link>http://fr.kmedia.io/live/ESPNN/chunks.m3u8|Referer=http://kmediatv.com/espnews-hd/</link>
+<sublink>http://espn.tmedia.me/cache/espnews.m3u8</sublink>
+<thumbnail>http://i68.tinypic.com/28bfm7o.jpg</thumbnail>
+</item>
+
+
+
+<item>
+<title>ESPN</title>
+<link>
+<sublink>http://yoursports.stream/hls/xyss.m3u8?ch=espn</sublink>
+<sublink>http://yoursports.stream/hls/xyss.m3u8?ch=espn</sublink>
+</link>
+<thumbnail>https://lh6.googleusercontent.com/proxy/2ia_HMhUxNYJHDj9ewtY8MkBVYVQNs1yToenwYic51ayQ21D6NjPt9eKC9gX6NqMhHZwiU3ZfeQimv4Bxmi2glI2aR62e1srbf46xXsNsRBpwDk_822tz3a9kypQHoxiCodAQnS3hd2oYkgsOjE=p</thumbnail>
+</item>
+
+<item>
+<title>ESPN 2</title>
+<link>
+<sublink>http://yoursports.stream/hls/xyss.m3u8?ch=espn2</sublink>
+<sublink>http://123tvnow.com/watch/espn2/?jwsource=cl</sublink>
+</link>
+<thumbnail>https://d229kpbsb5jevy.cloudfront.net/teleup/content/common/logos/channel/logos/uydiww.png</thubnail>
+</item>
+
+<item>
+<title>ESPN U</title>
+<link>
+<sublink>http://yoursports.stream/hls/xyss.m3u8?ch=espnu</sublink>
+<sublink>http://espn.tmedia.me/cache/espnu.m3u8</sublink>
+</link>
+<thumbnail>http://i63.tinypic.com/2dkg7ko.jpg</thubnail>
+</item>
+
+
+
+
+<item>
+<title>NFL Network</title>
+<link>http://e1.123tv-uk.host/live/nfltv/chunks.m3u8|Referer=http://123tvgo.com/watch/nfl-network/</link>
+<thumbnail>http://i65.tinypic.com/25tjc0m.jpg</thumbnail>
+</item>
+
+
+<item>
+<title>NBA Network</title>
+<link>http://nom.nomnomnom.ml/live/nbatv-hq/chunks.m3u8?nimblesessionid=4689375&wmsAuthSign=c2VydmVyX3RpbWU9Ni8yMC8yMDE5IDk6MzY6MjYgUE0maGFzaF92YWx1ZT1QZ2tPWElLWE90MXROdlo2Q1RubWl3PT0mdmFsaWRtaW51dGVzPTYwJmlkPTE4NS4xNDguMTQ3LjIzNiZzdHJtX2xlbj01</link>
+<thumbnail>http://i64.tinypic.com/zy9bty.jpg</thumbnail>
+</item>
+
+<item>
+<title>NHL Network</title>
+<link>http://e5.123tv-uk.host/live/nhltv/chunks.m3u8|Referer=http://123tvgo.com/watch/nhl-network/</link>
+<thumbnail>http://i65.tinypic.com/90pzci.gif</thumbnail>
+</item>
+
+<item>
+<title>MLB Network</title>
+<link>http://mlblive-akc.mlb.com/ls01/mlbam/mlb_network/NETWORK_LINEAR_1/MLB_VIDEO_MLBN_FAUX_LINEAR_STREAM_1_MLBN_Linear_Stream_Tueday_20190618_1560839944530/2400K/2400_slide.m3u8</link>
+<thumbnail>http://i67.tinypic.com/w6qtyf.jpg</thumbnail>
+</item>
+
+<item>
+<title>CBS Sports HQ</title>
+<link>https://sportshq-mediapackage-cedexis.cbsaavideo.com/out/v1/be87d7783e5c4270a5830ea5d1164850/desktop_6.m3u8</link>
+<thumbnail>http://i63.tinypic.com/9hkk5k.jpg</thumbnail>
+</item>
+
+
+
+<item>
+<title>Big 10 Network</title>
+<sublink>http://161.0.157.38/PLTV/88888888/224/3221226177/index.m3u8?fluxustv.m3u8</sublink>
+<sublink>http://161.0.157.38/PLTV/88888888/224/3221226177/index.m3u8?fluxustv.m3u8</sublink>
+<thumbnail>http://i67.tinypic.com/2rws5es.jpg</thumbnail>
+</item>
+
+<item>
+<title>ACC Network</title>
+<link>
+<sublink>https://raycomacc.akamaized.net/hls/live/597810/raycomacc/master_05.m3u8</sublink>
+</link>
+<thumbnail>http://i65.tinypic.com/2hdzju1.jpg</thumbnail>
+</item>
+
+<item>
+<title>SEC Network</title>
+<link>
+<sublink>http://185.59.223.148/usa_sports_sec_network_hd/tracks-v1a1/mono.m3u8</sublink>
+<sublink></sublink>
+</link>
+<thumbnail>http://i63.tinypic.com/mhcz8g.jpg</thumbnail>
+</item>
+
+
+<item>
+<title>Red Bull TV</title>
+<link>https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master_3360.m3u8</link>
+<thumbnail>http://i68.tinypic.com/308zasy.jpg</thumbnail>
+</item>
+
+
+
+
+<item>
+<title>MSG Network</title>
+<link>http://nlds319.cdnak.neulion.com/nlds/msg/msg_z1b/as/live/msg_z1b_hd_3000_pc.m3u8</link>
+<thumbnail>http://i64.tinypic.com/j5js6p.jpg</thumbnail>
+</item>
+
+
+<item>
+<title>Box Nation</title>
+<link>http://procaja.me/live/?z=11&u=981eZH4M6a8J9v&s=98g816ERn8iGK1&id=264&t=live&f=ts</link>
+<thumbnail>http://i64.tinypic.com/293hyqw.jpg</thumbnail>
+</item>
+
+<item>
+<title>Impact Wrestling</title>
+<link>http://stitcher.pluto.tv/stitch/hls/channel/59b722526996084038c01e1b/master.m3u8?deviceType=&deviceMake=&deviceModel=&sid=7&deviceId=-&deviceVersion=&appVersion=&deviceDNT=&userId=&advertisingId=&deviceLat=&deviceLon=-&app_name=&appName=&appStoreUrl=&profileLimit=high</link>
+<thumbnail>http://i65.tinypic.com/qywq2t.jpg</thumbnail>
+</item>
+
+<item>
+<title>Glory Kickboxing</title>
+<link>http://stitcher.pluto.tv/stitch/hls/channel/5417a212ff9fba68282fbf5e/master.m3u8?deviceType=&deviceMake=&deviceModel=&sid=2&deviceId=&deviceVersion=&appVersion=&deviceDNT=&userId=&advertisingId=&deviceLat=&deviceLon=-&app_name=&appName=&appStoreUrl=&profileLimit=high</link>
+<thumbnail>http://i65.tinypic.com/241ryg1.jpg</thumbnail>
+</item>
+
+<item>
+<title>Flow Sports</title>
+<link>http://161.0.157.9/PLTV/88888888/224/3221226899/03.m3u8</link>
+<thumbnail>http://i66.tinypic.com/24njgg3.jpg</thumbnail>
+</item>
+
+<item>
+<title>Stadium</title>
+<link>https://d28avce4cnwu2y.cloudfront.net/v1/manifest/61a556f78e4547c8ab5c6297ea291d6350767ca2/Mux/37f5dd6d-5713-4998-8354-8c6675612b42/0.m3u8</link>
+<thumbnail>http://i68.tinypic.com/2egh5xh.jpg</thumbnail>
+</item>
+
+<item>
+<title>Chelsea TV</title>
+<link>https://d11n34tff6gog3.cloudfront.net/hls/chelstvpcweb/03.m3u8</link>
+<thumbnail>http://i63.tinypic.com/2d0grht.jpg</thumbnail>
+</item>
+
+<item>
+<title>Manchster United TV</title>
+<link>https://d1wgyhp9evqv7n.cloudfront.net/hls/mutvpcweb/03.m3u8</link>
+<thumbnail>http://i66.tinypic.com/169nfpw.jpg</thumbnail>
+</item>
+
+<item>
+<title>Combat Go</title>
+<link>http://bcoveliveios-i.akamaihd.net/hls/live/632424/5725327446001_02/playlist.m3u8</link>
+<thumbnail>http://static1.squarespace.com/static/56df7fda1d07c0f7dfe38699/56e9c8a0f8baf3cb37a33334/5ae389c5352f533396b154f3/1524862354248/combatGologo+%281%29.jpg</thumbnail>
+</item>
+
+
+<item>
+<title>Longhorn Network</title>
+<link>http://espn.tmedia.me/cache/lghn.m3u8</link>
+<thumbnail>http://i67.tinypic.com/29ataig.png</thumbnail>
+</item>
+
+
+
+
