@@ -1,5 +1,98 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
+<addon id="repository.fenix.flix" name="[B][COLOR firebrick]Fenix[/COLOR][COLOR white] Repo[/B][/COLOR]" version="2.1" provider-name="Alderson">
+	<extension point="xbmc.addon.repository" name="Repositorio Fenix Flix">
+		<info compressed="false">https://raw.githubusercontent.com/fenixflix/repository.fenix.flix/master/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/fenixflix/repository.fenix.flix/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/fenixflix/repository.fenix.flix/master/Zip</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+	    <summary>Repositorio Oficial Fenix Flix</summary>
+        <description>[COLOR firebrick][B]l[/COLOR][/B] Repositorio oficial de instalacao de plugins e do addon [COLOR firebrick][B]Fenix[/COLOR][/B] Flix [COLOR firebrick][B]l[/COLOR][/B]
+        [COLOR firebrick][B]l[/COLOR][/B] Proibido reproducao sem previa autorizacao [COLOR firebrick][B]l[/COLOR][/B]</description>
+		<news>[COLOR firebrick]l[/COLOR] O Melhor do Cinema no seu Kodi [COLOR firebrick]l[/COLOR]
+
+[B][COLOR firebrick]FENIX[/COLOR] [COLOR white]FLIX[/COLOR][/B]
+www.fenixflix.ml</news>
+		<disclaimer lang="en">O addon que sera instalado nao hospeda nem possui nenhum conteudo. O autor nao e responsavel pelo uso e pelo conteudo encontrado usando este addon.</disclaimer>
+		<platform>all</platform>
+		<website>https://www.fenixflix.ml/</website>
+        <email></email>
+        <video_guide></video_guide>
+        <reuselanguageinvoker>false</reuselanguageinvoker>
+      <assets>
+      	<icon>icon.png</icon>
+    	<fanart>fanart.jpg</fanart>
+        <screenshot>resources/screenshots/01.jpg</screenshot>
+        <screenshot>resources/screenshots/02.jpg</screenshot>
+        <screenshot>resources/screenshots/03.jpg</screenshot>
+      </assets>
+	</extension>
+</addon>
+
+<addon id="plugin.video.vida"
+       name="[COLOR cyan][B]--VIDA--[/B][/COLOR]"
+       version="4.9.0"
+       provider-name="IZAC">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+	<import addon="script.module.t0mm0.common" version="2.0.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.beautifulsoup4" />
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.requests" />
+    <import addon="script.module.httplib2" />
+    <import addon="script.module.youtube.dl" optional="true"/>
+    <import addon="plugin.video.youtube" version="3.0.0"/>
+    <import addon="script.module.urlresolver" optional="true"/>
+    <import addon="script.module.simplejson" /> 
+    <import addon="script.common.plugin.cache" version="2.5.2"/>
+    <import addon="script.module.metahandler" version="2.5.1"/>
+
+   </requires>
+  <extension point="xbmc.python.pluginsource" library="youtube.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">vida</summary>
+    <description lang="pt">[B][COLOR cyan]--EQUIPE VIDA--[/COLOR][/B][B][COLOR white] IZAC -- BRIDA -- MORNING STAR -- NANDA TRISTANIA -- WILLIAN RDN.[/COLOR][/B]</description>
+	<disclaimer lang="en">--VIDA-- dê um UP na sua TV</disclaimer>
+	<platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.team.milhanos"
+       name="TEAM MILHANOS"
+       version="1.0.2"
+       provider-name="TEAM MILHANOS">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+	<import addon="script.module.t0mm0.common" version="2.0.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.beautifulsoup4" />
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.requests" />
+    <import addon="script.module.httplib2" />
+    <import addon="script.module.youtube.dl" optional="true"/>
+    <import addon="plugin.video.youtube" version="3.0.0"/>
+    <import addon="script.module.urlresolver" optional="true"/>
+    <import addon="script.module.simplejson" /> 
+    <import addon="script.common.plugin.cache" version="2.5.2"/>
+    <import addon="script.module.metahandler" version="2.5.1"/>
+
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">BY TEAM MILHANO</summary>
+    <description lang="en">BY TEAM MILHANO</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
 <addon id="TeamKodiAddonsPT" name="Repositorio Team Milhano" version="21.11.2019" provider-name="Team Milhano">
 <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -829,38 +922,6 @@ COLOR yellow]--[/COLOR][I] Added new setting Category called "Shortcuts".  This 
   </extension>
 </addon>
 
-<addon id="plugin.video.vida"
-       name="[COLOR cyan][B]--VIDA--[/B][/COLOR]"
-       version="4.8.0"
-       provider-name="IZAC">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-	<import addon="script.module.t0mm0.common" version="2.0.0"/>
-    <import addon="script.module.beautifulsoup" version="3.2.1"/>
-    <import addon="script.module.simple.downloader" version="0.9.4"/>
-    <import addon="script.module.beautifulsoup4" />
-    <import addon="script.module.simple.downloader" version="0.9.4"/>
-    <import addon="script.module.requests" />
-    <import addon="script.module.httplib2" />
-    <import addon="script.module.youtube.dl" optional="true"/>
-    <import addon="plugin.video.youtube" version="3.0.0"/>
-    <import addon="script.module.urlresolver" optional="true"/>
-    <import addon="script.module.simplejson" /> 
-    <import addon="script.common.plugin.cache" version="2.5.2"/>
-    <import addon="script.module.metahandler" version="2.5.1"/>
-
-   </requires>
-  <extension point="xbmc.python.pluginsource" library="youtube.py">
-    <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">vida</summary>
-    <description lang="pt">[B][COLOR cyan]--EQUIPE VIDA--[/COLOR][/B][B][COLOR white] IZAC -- BRIDA -- MORNING STAR -- NANDA TRISTANIA -- WILLIAN RDN.[/COLOR][/B]</description>
-	<disclaimer lang="en">--VIDA-- dê um UP na sua TV</disclaimer>
-	<platform>all</platform>
-  </extension>
-</addon>
-
 <addon id="plugin.video.KeltecMPIPTV" name="[B][COLOR blue]KeltecMP[/COLOR] [COLOR red]IPTV[/COLOR][/B]" version="19.09.11" provider-name="Team KeltecMP">
   <extension point="xbmc.python.pluginsource" library="default.py">
         <provides>video</provides>
@@ -1095,37 +1156,6 @@ provider-name="Vikings TEAM">">
         <description lang="pt_BR"><![CDATA[With KODI Popcorn Time you can search for movies, TV shows and Animes that you can see immediately in KODI. NOTE: KODI Popcorn Time will continue sharing content while watching a movie TV show or Anime.]]></description>
         <description lang="sl"><![CDATA[Z KODI Popcorn Time lahko iščete Filme, TV Serije in Anime, ki si jih lahko takoj ogledaš v KODI-ju. OPOMBA: KODI Popcorn Time med ogledom filmov, TV Serij ter Anime deli video dalje tudi drugim uporabnikom.]]></description>
     </extension>
-</addon>
-
-<addon id="plugin.video.team.milhanos"
-       name="TEAM MILHANOS"
-       version="1.0.1"
-       provider-name="TEAM MILHANOS">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-	<import addon="script.module.t0mm0.common" version="2.0.0"/>
-    <import addon="script.module.beautifulsoup" version="3.2.1"/>
-    <import addon="script.module.simple.downloader" version="0.9.4"/>
-    <import addon="script.module.beautifulsoup4" />
-    <import addon="script.module.simple.downloader" version="0.9.4"/>
-    <import addon="script.module.requests" />
-    <import addon="script.module.httplib2" />
-    <import addon="script.module.youtube.dl" optional="true"/>
-    <import addon="plugin.video.youtube" version="3.0.0"/>
-    <import addon="script.module.urlresolver" optional="true"/>
-    <import addon="script.module.simplejson" /> 
-    <import addon="script.common.plugin.cache" version="2.5.2"/>
-    <import addon="script.module.metahandler" version="2.5.1"/>
-
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-    <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">BY TEAM MILHANO</summary>
-    <description lang="en">BY TEAM MILHANO</description>
-    <platform>all</platform>
-  </extension>
 </addon>
 
 <addon id="plugin.video.youtube" name="YouTube" version="6.5.2" provider-name="anxdpanic, bromix">
