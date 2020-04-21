@@ -1513,7 +1513,7 @@ Initial Release
 
 <addon id="plugin.video.team.milhanos"
        name="TEAM MILHANOS"
-       version="1.0.5"
+       version="1.0.6"
        provider-name="TEAM MILHANOS">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -2152,6 +2152,48 @@ www.fenixflix.ml</news>
 		<description>goldengun</description>
 		<platform>all</platform>
 	</extension>
+</addon>
+
+<addon id="repository.kodianer" name="[COLOR gold]Kodianer[/COLOR] [COLOR red]Repository[/COLOR]" version="4.1" provider-name="[COLOR lime]Scarfaze[/COLOR]">
+    <requires>
+            <import addon="xbmc.addon" version="12.0.0"/>
+        </requires>
+
+    <extension point="xbmc.addon.repository" name="Kodianer Repository">
+	<dir>
+		<info compressed="false">http://master-of-tools.de/kodianer/repo/xml/addons.xml</info>
+		<checksum>http://master-of-tools.de/kodianer/repo/xml/addons.xml.md5</checksum>
+		<datadir zip="true">http://master-of-tools.de/kodianer/repo/</datadir>
+	</dir>
+
+	<dir>
+	<info compressed="true">https://raw.githubusercontent.com/kodinerds/repo/master/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/kodinerds/repo/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/kodinerds/repo/master/</datadir>
+		</dir>
+
+        <dir>
+
+            <info compressed="false">https://raw.github.com/streamxstream/xStreamRepo/master/addons.xml</info>
+
+            <checksum>https://raw.github.com/streamxstream/xStreamRepo/master/addons.xml.md5</checksum>
+
+            <datadir zip="true">https://raw.github.com/streamxstream/xStreamRepo/master/</datadir>
+
+        </dir>
+
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>[COLOR gold]Kodianer[/COLOR] [COLOR red]Repository[/COLOR]</summary>
+        <description>[COLOR gold]Kodianer[/COLOR] [COLOR red]Repository[/COLOR]
+[COLOR skyblue]Forum:[/COLOR] [COLOR gold]https://kodianer.de[/COLOR]
+</description>
+        <platform>all</platform>
+      <assets>
+       <icon>icon.png</icon>
+       <fanart>fanart.jpg</fanart>
+  </assets>
+  </extension>
 </addon>
 
 <addon id="repository.kodibae" name="[COLOR pink]Kodi Bae Repository[/COLOR]" version="3.0.0" provider-name="kodibae">
