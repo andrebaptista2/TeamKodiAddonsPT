@@ -1,5 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
+<addon id="KeltecMP.repository" name="[B][COLOR gold]Repositorio[/COLOR]: [COLOR blue]KelTecMP[/COLOR] [COLOR red]IPTV[/COLOR][/B]" version="0.0.4" provider-name="Team Ezequiel KelTec">
+	<extension point="xbmc.addon.repository" name="KelTecMP IPTV Repo">
+		<info compressed="false">http://keltecmp.tk/addons.xml</info>
+		<checksum>http://keltecmp.tk/addons.xml.md5</checksum>
+		<datadir zip="true">http://keltecmp.tk/Plugins/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Repositorio Oficial KelTecMP IPTV</summary>
+		<description>Repositorio oficial KelTecMP IPTV - Proibido reproducao //Grupo Facebook KeltecMP IPTV https://www.facebook.com/groups/1637920199584939/</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
 <addon id="plugin.googledrive" name="Google Drive" version="1.3.5" provider-name="Carlos Guzman (cguZZman)">
 	<requires>
 		<import addon="xbmc.python" version="2.25.0" />
@@ -56,61 +69,8 @@ Kodi and myself take no responsibility or liability.
 
 The authentication server URL is specified in Settings / Advanced / Sign-in Server. The Sign-in Server implements the OAuth 2.0 protocol.
 The complete source code of the Sign-in Server can be download here: https://github.com/cguZZman/drive-login
-You can clone the project and host it in your own server. 
+You can clone the project and host it in your own server.
 		</disclaimer>
-	</extension>
-</addon>
-
-<addon id="script.module.clouddrive.common" name="Cloud Drive Common Module" version="1.2.14" provider-name="Carlos Guzman (cguZZman)">
-	<requires>
-		<import addon="xbmc.python" version="2.25.0" />
-		<import addon="script.module.dateutil"/>
-		<import addon="script.module.pyqrcode"/>
-	</requires>
-	<extension point="xbmc.python.module" library="/" />
-	<extension point="xbmc.service" library="service.py" start="login" />
-	<extension point="xbmc.addon.metadata">
-		<platform>all</platform>
-		<summary lang="en_GB">Cloud Drive Common Module</summary>
-		<description lang="en_GB">Common Services and Classes for all the cloud drive addons.</description>
-		<summary lang="he_IL">מודול משותף לכונן בענן</summary>
-		<description lang="he_IL">שירותים ושירותים משותפים לכל התוספים של כונן הענן.</description>		
-		<license>GPL-3.0-or-later</license>
-		<source>https://github.com/cguZZman/script.module.clouddrive.common</source>
-		<forum>https://github.com/cguZZman/script.module.clouddrive.common/issues</forum>
-		<assets>
-			<icon>icon.png</icon>
-		</assets>
-		<news>
-v1.2.14 released Mar 13, 2020:
-- Refresh token fix
-		</news>
-		<disclaimer lang="en_GB">
-This cloud drive addon uses a third-party authentication mechanism commonly known as OAuth 2.0.
-If you want to know more about OAuth 2.0 you can visit the following pages:
-- https://oauth.net/2/
-- https://developers.google.com/identity/protocols/OAuth2
-- https://docs.microsoft.com/en-us/onedrive/developer/rest-api/getting-started/msa-oauth
-
-Kodi and myself take no responsibility or liability whatsoever.
-
-The authentication server URL is specified in Settings / Advanced / Sign-in Server. The Sign-in Server implements the OAuth 2.0 protocol.
-The complete source code of the Sign-in Server can be download here: https://github.com/cguZZman/drive-login
-You can clone the project and host it in your own server. 
-		</disclaimer>
-	</extension>
-</addon>
-
-<addon id="KeltecMP.repository" name="[B][COLOR gold]Repositorio[/COLOR]: [COLOR blue]KelTecMP[/COLOR] [COLOR red]IPTV[/COLOR][/B]" version="0.0.4" provider-name="Team Ezequiel KelTec">
-	<extension point="xbmc.addon.repository" name="KelTecMP IPTV Repo">
-		<info compressed="false">http://keltecmp.tk/addons.xml</info>
-		<checksum>http://keltecmp.tk/addons.xml.md5</checksum>
-		<datadir zip="true">http://keltecmp.tk/Plugins/</datadir>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary>Repositorio Oficial KelTecMP IPTV</summary>
-		<description>Repositorio oficial KelTecMP IPTV - Proibido reproducao //Grupo Facebook KeltecMP IPTV https://www.facebook.com/groups/1637920199584939/</description>
-		<platform>all</platform>
 	</extension>
 </addon>
 
@@ -125,21 +85,6 @@ You can clone the project and host it in your own server.
   <extension point="xbmc.addon.metadata">
     <summary lang="en">Djay Themes</summary>
     <description lang="en">Welcome to the Djay Themes where you can get all the latest Djay Themes for kodi and spmc</description>
-    <platform>all</platform>
-  </extension>
-</addon>
-
-<addon id="plugin.program.DreamTeam" name=" [B][COLOR orange]Ares Dream Team Wizard[/COLOR][/B]" version="0.1" provider-name="[B][COLOR red]Dream Team Milhano[/COLOR][/B]">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-	</requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-        <provides>executable</provides>
-  </extension>
-  <extension point="xbmc.service" library="startup.py" start="startup" />
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">Dream Team Wizard</summary>
-    <description lang="en">https://milhano.com.pt</description>
     <platform>all</platform>
   </extension>
 </addon>
@@ -176,31 +121,6 @@ You can clone the project and host it in your own server.
     <summary lang="en">Maze Themes</summary>
     <description lang="en">Welcome to the Maze Themes where you can get all the latest Maze Custom Themes for kodi and spmc</description>
     <platform>all</platform>
-  </extension>
-</addon>
-
-<addon id="plugin.video.1x2"
-  version="1.0.22"
-  name="1x2"
-  provider-name="Team NS">
-  <requires>
-    <import addon="xbmc.python" version="2.25.0"/>
-    <import addon="script.module.requests" version="2.19.1"/>
-    <import addon="script.module.routing" />
-    <import addon="script.module.TvTap" />
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="addon.py">
-    <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <platform>all</platform>
-    <summary lang="es">Los videos son proporcionados por personas ... en línea ... en algún lugar...</summary>
-    <description lang="es">Los videos son proporcionados por personas ... en línea ... en algún lugar...</description>
-    <disclaimer lang="es">El autor no almacena ni distribuye ninguno de los contenidos que se muestran en este addon. El autor no tiene ninguna afiliación con el proveedor de contenidos.</disclaimer>
-    <assets>
-      <icon>icon.gif</icon>
-      <fanart>fanart.jpg</fanart>
-    </assets>
   </extension>
 </addon>
 
@@ -1096,44 +1016,6 @@ Initial Release
   </extension>
 </addon>
 
-<addon id="plugin.video.marauder" name="[COLORorange]Marauder[/COLOR]" provider-name="" version="2.0.3c">
-    <requires>
-        <import addon="xbmc.python" version="2.20.0" />
-        <import addon="script.marauder.artwork" />
-        <import addon="script.marauder.metadata" />
-        <import addon="script.module.resolveurl" />
-        <import addon="script.module.requests" />
-        <import addon="script.module.metahandler" />
-        <import addon="script.module.beautifulsoup4" />
-		<import addon="script.module.pyqrcode" version="0.0.1"/>
-        <import addon="script.module.barnaclescrapers" />
-        <import addon="script.module.openscrapers" optional="true" />
-        <import addon="script.module.orion" optional="true" />
-    </requires>
-    <extension library="marauder.py" point="xbmc.python.pluginsource">
-        <provides>audio video</provides>
-    </extension>
-    <extension library="service.py" point="xbmc.service" start="startup" />
-    <extension point="xbmc.addon.metadata">
-        <reuselanguageinvoker>false</reuselanguageinvoker>
-        <summary lang="en_GB">Marauder</summary>
-        <description lang="en_GB">Movie, TV Show, and Playlist Add-on</description>
-        <platform>all</platform>
-        <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
-        <forum />
-        <website />
-        <source />
-        <disclaimer lang="en_GB">The author of this add-on does not host any of the content which is found and has no affiliation with any of the content providers. This add-on simply searches websites for content. Use at your own risk!</disclaimer>
-        <assets>
-            <icon>icon.png</icon>
-            <fanart>fanart.jpg</fanart>
-        </assets>
-        <news>
-- See Changelog on Tools menu
-        </news>
-    </extension>
-</addon>
-
 <addon id="plugin.video.mirror" name="[COLOR orange][B]MirRoR[COLOR white] Video[/B][/COLOR]" provider-name="Cy4Root" version="2.3.1c">
     <requires>
         <import addon="xbmc.python" version="2.19.0" />
@@ -1339,37 +1221,6 @@ Initial Release
   </extension>
 </addon>
 
-<addon id="plugin.video.resistance" version="6.1.0.0.1" name="[COLOR skyblue]Resistance[/COLOR]" provider-name="Resistance">
-    <requires>
-        <import addon="xbmc.python" version="2.19.0" />
-        <import addon="script.module.resistance" />
-        <import addon="script.resistance.artwork" />
-        <import addon="script.resistance.metadata" />
-        <import addon="script.module.resolveurl" />
-        <import addon="script.module.metahandler" version="1.0.0" />
-        <import addon="plugin.video.youtube" />
-    </requires>
-    <extension point="xbmc.python.pluginsource" library="resistance.py">
-        <provides>video</provides>
-    </extension>
-    <extension point="xbmc.service" library="service.py" start="startup" />
-    <extension point="xbmc.addon.metadata">
-        <summary lang="en">Resistance tv/movie plugin</summary>
-        <description lang="en"></description>
-        <platform>all</platform>
-        <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
-        <forum></forum>
-        <website></website>
-        <source></source>
-        <disclaimer lang="en">The author of this addon do not host any of the content which is found and have no affiliation with any of the content providers. This addon simply searches websites for content. Use at your own risk!</disclaimer>
-        <assets>
-            <icon>icon.png</icon>
-            <fanart>fanart.jpg</fanart>
-        </assets>
-        <news></news>
-    </extension>
-</addon>
-
 <addon id="plugin.video.scrubsv2" name="[COLOR orange]Scrubs v2[/COLOR]" provider-name="JewBMX" version="4.6.1">
     <requires>
         <import addon="xbmc.python" version="2.19.0" />
@@ -1513,42 +1364,6 @@ Initial Release
 			v1.0.0 - Initial version.
 		</news>
 	</extension>
-</addon>
-
-<addon id="plugin.video.thecrew" version="0.0.50a" name="[COLOR deeppink]THE CREW[/COLOR]" provider-name="The Crew">
-    <requires>
-        <import addon="xbmc.python" version="2.19.0" />
-        <import addon="script.module.thecrew" />
-        <import addon="script.thecrew.artwork" />
-        <import addon="script.thecrew.metadata" />
-        <import addon="script.module.resolveurl" />
-        <import addon="script.module.metahandler" version="1.0.0" />
-        <import addon="plugin.video.youtube" />
-        <import addon="script.crew.sports" />
-        <import addon="script.module.inputstreamhelper" version="0.3.3"/>
-    </requires>
-    <extension point="xbmc.python.pluginsource" library="thecrew.py">
-        <provides>video</provides>
-    </extension>
-    <extension point="xbmc.service" library="service.py" start="startup" />
-    <extension point="xbmc.addon.metadata">
-        <summary lang="en">The Crew is a team of highly skilled talent that provides you with the best of the best.</summary>
-        <description lang="en">Many come, Many go. The true and dedicated are here. Enjoy Your Entertainment.</description>
-        <platform>all</platform>
-        <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
-        <forum></forum>
-        <website></website>
-        <source></source>
-        <disclaimer lang="en">The author of this addon do not host any of the content which is found and have no affiliation with any of the content providers. This addon simply searches websites for content. Use at your own risk!</disclaimer>
-        <assets>
-            <icon>icon.png</icon>
-            <fanart>fanart.jpg</fanart>
-            <screenshot>resources/art/ss/1.png</screenshot>
-            <screenshot>resources/art/ss/2.png</screenshot>
-            <screenshot>resources/art/ss/3.png</screenshot>
-        </assets>
-        <news></news>
-    </extension>
 </addon>
 
 <addon id="plugin.video.themadtitan" name="The Mad Titan" version="4.0" provider-name="Magnetic">
@@ -2452,53 +2267,6 @@ Skins have been added with Topics Loader, which are marked [COLOR red] RED [/ CO
     </extension>
 </addon>
 
-<addon id="repository.thecrew" name="[COLOR deeppink]THE CREW[/COLOR]" provider-name="The Crew" version="0.1.0">
-	<requires>
-		<import addon="xbmc.addon" version="12.0.0"/>
-	</requires>
-	<extension name="The Crew" point="xbmc.addon.repository">
-		<dir>
-			<info compressed="false">https://raw.githubusercontent.com/thecrewwh/zips/master/_zips/addons.xml</info>
-			<checksum>https://raw.githubusercontent.com/thecrewwh/zips/master/_zips/addons.xml.md5</checksum>
-			<datadir zip="true">https://raw.githubusercontent.com/thecrewwh/zips/master/_zips</datadir>
-		</dir>
-		<dir>
-			<info compressed="false">https://raw.githubusercontent.com/jsergio123/zips/master/addons.xml</info>
-			<checksum>https://raw.githubusercontent.com/jsergio123/zips/master/addons.xml.md5</checksum>
-			<datadir zip="true">https://raw.githubusercontent.com/jsergio123/zips/master/</datadir>
-		</dir>
-		<dir>
-			<info compressed="false">https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/addons.xml</info>
-			<checksum>https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/addons.xml.md5</checksum>
-			<datadir zip="true">https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/</datadir>
-		</dir>
-		<dir>
-			<info compressed="false">https://raw.githubusercontent.com/dobbelina/repository.dobbelina/master/addons.xml</info>
-			<checksum>https://raw.githubusercontent.com/dobbelina/repository.dobbelina/master/addons.xml.md5</checksum>
-			<datadir zip="true">https://raw.githubusercontent.com/dobbelina/repository.dobbelina/master/</datadir>
-		</dir>
-		<dir>
-			<info compressed="false">https://repo.orionoid.com/addons.xml?v=3.3.0</info>
-			<checksum>https://repo.orionoid.com/addons.xml.md5?v=3.3.0</checksum>
-			<datadir zip="true">https://repo.orionoid.com</datadir>
-		</dir>
-		<dir>
-			<info compressed="false">https://raw.githubusercontent.com/a4k-openproject/repository.openscrapers/master/zips/addons.xml</info>
-			<checksum>https://raw.githubusercontent.com/a4k-openproject/repository.openscrapers/master/zips/addons.xml.md5</checksum>
-			<datadir zip="true">https://raw.githubusercontent.com/a4k-openproject/repository.openscrapers/master/zips/</datadir>
-		</dir>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary>The Crew is a team of highly skilled talent that provide you with the best of the best.</summary>
-		<description>This addon does not form part of the Kodi Media Centre. Please do not seek assistance with this addon from any of the Official Kodi Support Channels.The author does not host any of the content in this addon and takes no responsibility for content found.</description>
-		<platform>all</platform>
-		<assets>
-			<icon>icon.png</icon>
-			<fanart>fanart.jpg</fanart>
-		</assets>
-	</extension>
-</addon>
-
 <addon 	id="repository.united.wizard"
 		name="[COLOR lime][B]United[/B][/COLOR][COLOR cyan][B]Wizard[/B][/COLOR][COLOR red][B]Repo[/B][/COLOR]"
 		version="1.0"
@@ -2592,19 +2360,6 @@ Skins have been added with Topics Loader, which are marked [COLOR red] RED [/ CO
 		</assets>
 		<news></news>
 	</extension>
-</addon>
-
-<addon id="repository.Worf" name="[COLOR green][B].Repository[/B][/COLOR][COLOR white][B]do[/B][/COLOR][COLOR red][B]Worf[/B][/COLOR]" version="0.0.1" provider-name="Worf">
-	<extension point="xbmc.addon.repository" name="Worf">
-        <info compressed="false">https://raw.githubusercontent.com/pancadas71/repository.Worf/master/addons.xml</info>
-        <checksum>http://raw.githubusercontent.com/pancadas71/repository.Worf/master/addons.xml.md5</checksum>
-        <datadir zip="true">http://raw.githubusercontent.com/pancadas71/repository.Worf/master/repo/</datadir>
-	</extension>
-		<extension point="xbmc.addon.metadata">
-		<summary>O Worf</summary>
-		<description>Repository do Worf</description>
-		<platform>all</platform>
-  </extension>
 </addon>
 
 <addon id="repository.xbmchub" name="TVADDONS.CO Add-on Repository" version="3.0.0" provider-name="tvaddons">
@@ -2774,7 +2529,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
   </extension>
 </addon>
 
-<addon id="script.module.clouddrive.common" name="Cloud Drive Common Module" version="1.2.12" provider-name="Carlos Guzman (cguZZman)">
+<addon id="script.module.clouddrive.common" name="Cloud Drive Common Module" version="1.2.14" provider-name="Carlos Guzman (cguZZman)">
 	<requires>
 		<import addon="xbmc.python" version="2.25.0" />
 		<import addon="script.module.dateutil"/>
@@ -2795,81 +2550,8 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 			<icon>icon.png</icon>
 		</assets>
 		<news>
-v1.2.12 released Mar 3, 2020:
-- NFO export
-		</news>
-		<disclaimer lang="en_GB">
-This cloud drive addon uses a third-party authentication mechanism commonly known as OAuth 2.0.
-If you want to know more about OAuth 2.0 you can visit the following pages:
-- https://oauth.net/2/
-- https://developers.google.com/identity/protocols/OAuth2
-- https://docs.microsoft.com/en-us/onedrive/developer/rest-api/getting-started/msa-oauth
-
-Kodi and myself take no responsibility or liability whatsoever.
-
-The authentication server URL is specified in Settings / Advanced / Sign-in Server. The Sign-in Server implements the OAuth 2.0 protocol.
-The complete source code of the Sign-in Server can be download here: https://github.com/cguZZman/drive-login
-You can clone the project and host it in your own server.
-		</disclaimer>
-	</extension>
-</addon>
-
-<addon id="script.module.clouddrive.common" name="Cloud Drive Common Module" version="1.2.8" provider-name="Carlos Guzman (cguZZman)">
-	<requires>
-		<import addon="xbmc.python" version="2.25.0" />
-		<import addon="script.module.dateutil"/>
-		<import addon="script.module.pyqrcode"/>
-	</requires>
-	<extension point="xbmc.python.module" library="/" />
-	<extension point="xbmc.service" library="service.py" start="login" />
-	<extension point="xbmc.addon.metadata">
-		<platform>all</platform>
-		<summary lang="en_GB">Cloud Drive Common Module</summary>
-		<description lang="en_GB">Common Services and Classes for all the cloud drive addons.</description>
-		<summary lang="he_IL">מודול משותף לכונן בענן</summary>
-		<description lang="he_IL">שירותים ושירותים משותפים לכל התוספים של כונן הענן.</description>
-		<license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
-		<source>https://github.com/cguZZman/script.module.clouddrive.common</source>
-		<forum>https://github.com/cguZZman/script.module.clouddrive.common/issues</forum>
-		<news>
-v1.2.8 released Sep 20, 2018:
-- Resume points and watched status for strm files in library
-v1.2.7 released Sep 12, 2018:
-- Order by date fix
-v1.2.6 released Sep 10, 2018:
-- Subtitles assigned in source mode
-- Fixes
-v1.2.5 released Aug 25, 2018:
-- Fix 'Remove' export option
-- Fix error log
-v1.2.3 released Aug 24, 2018:
-- Fix watch folder creating strm for non-media files
-- strm files saved in the cloud are exported as is.
-v1.2.1 released Aug 18, 2018:
-- Fix source mode
-v1.2.0 released Aug 15, 2018:
-- Added auto export and watch export folder
-v1.1.7 released Jul 14, 2018:
-- Added a QR code to simplify adding an account
-v1.1.5 released Jul 14, 2018:
-- Fixes for slow connections
-v1.1.4 released Jul 12, 2018:
-- Ip change detection.
-- Fixes
-v1.1.0 released Jul 11, 2018:
-- New mode for source and download services. Both moved to respective addons.
-- Source service fixed.
-v1.0.4 released Jul 6, 2018:
-- Fix display more than 100 files in source mode
-v1.0.3 released Jul 5, 2018:
-- Fixes
-v1.0.2 released March 15, 2018:
-- Fixes
-v1.0.1 released Nov 6, 2017:
-- Login app rename
-- Support for images by extension only when the cloud drive doesn't provide image information.
-v1.0.0 released Nov 6, 2017:
-- First release
+v1.2.14 released Mar 13, 2020:
+- Refresh token fix
 		</news>
 		<disclaimer lang="en_GB">
 This cloud drive addon uses a third-party authentication mechanism commonly known as OAuth 2.0.
